@@ -1,0 +1,33 @@
+[prek]
+src.github = "j178/prek"
+fetch.url = "https://github.com/j178/prek/releases/download/$ver/prek-aarch64-apple-darwin.tar.gz"
+
+[googlesans-code]
+src.github = "googlefonts/googlesans-code"
+fetch.url = "https://github.com/googlefonts/googlesans-code/releases/download/$ver/GoogleSansCode-$ver.zip"
+
+[sf-symbols]
+src.manual = "7"
+fetch.url = "https://developer.apple.com/download/files/SF-Symbols-$ver.dmg"
+
+[sketchybar-helper]
+src.manual = "73ee34d377f62fc12ddbf519a2bcdb4b7946292a"
+fetch.github = "FelixKratz/SketchyBarHelper"
+
+[pvetui]
+src.github = "devnullvoid/pvetui"
+src.prefix = "v"
+fetch.url = "https://github.com/devnullvoid/pvetui/releases/download/v$ver/pvetui_$ver_darwin_arm64.tar.gz"
+
+[pvetui-x86_64-linux]
+src.github = "devnullvoid/pvetui"
+src.prefix = "v"
+fetch.url = "https://github.com/devnullvoid/pvetui/releases/download/v$ver/pvetui_$ver_linux_amd64.tar.gz"
+
+[gemini-cli]
+src.github = "google-gemini/gemini-cli"
+fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/gemini.js"
+
+[worktrunk]
+src.github = "max-sixty/worktrunk"
+fetch.url = "https://github.com/max-sixty/worktrunk/releases/download/$ver/worktrunk-aarch64-apple-darwin.tar.xz"

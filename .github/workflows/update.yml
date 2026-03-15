@@ -1,0 +1,58 @@
+name: Update sources
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cachix/install-nix-action@v31
+        with:
+          nix_path: nixpkgs=channel:nixpkgs-unstable
+
+      - name: Update sources with nvfetcher
+        id: nvfetcher
+        run: |
+          output=$(nix develop --command nvfetcher 2>&1)
+          echo "$output"
+          changes=$(echo "$output" | sed -n '/^Changes:/,$ { /^Changes:/d; /^$/d; p }')
+          if [ -z "$changes" ]; then
+            echo "No changes detected"
+            exit 0
+          fi
+          count=$(echo "$changes" | wc -l | tr -d ' ')
+          if [ "$count" -eq 1 ]; then
+            msg="$changes"
+          else
+            msg="Auto update:
+          $changes"
+          fi
+          {
+            echo "COMMIT_MSG<<EOF"
+            echo "$msg"
+            echo "EOF"
+          } >> "$GITHUB_ENV"
+
+      - name: Stage source changes for flake eval
+        if: ${{ env.COMMIT_MSG != null }}
+        run: git add _sources
+
+      - name: Update package list in README
+        if: ${{ env.COMMIT_MSG != null }}
+        run: ./scripts/update-readme.sh x86_64-linux
+
+      - name: Check flake
+        if: ${{ env.COMMIT_MSG != null }}
+        run: nix flake check
+
+      - name: Commit changes
+        if: ${{ env.COMMIT_MSG != null }}
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: ${{ env.COMMIT_MSG }}
+          file_pattern: "_sources/* README.md"
