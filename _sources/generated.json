@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ZSzD85B/cyAoNmwdpgur/dkjb8e+8aaG+lYbReb5SN4=",
+            "sha256": "sha256-UFNdT7Og/QXxN7va5vj/3hdhWUm9KCgX46pXVd2NjUw=",
             "type": "url",
-            "url": "https://github.com/j178/prek/releases/download/v0.3.5/prek-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/j178/prek/releases/download/v0.3.6/prek-aarch64-apple-darwin.tar.gz"
         },
-        "version": "v0.3.5"
+        "version": "v0.3.6"
     },
     "pvetui": {
         "cargoLock": null,

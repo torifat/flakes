@@ -24,10 +24,10 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.3.5";
+    version = "v0.3.6";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.3.5/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-ZSzD85B/cyAoNmwdpgur/dkjb8e+8aaG+lYbReb5SN4=";
+      url = "https://github.com/j178/prek/releases/download/v0.3.6/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-UFNdT7Og/QXxN7va5vj/3hdhWUm9KCgX46pXVd2NjUw=";
     };
   };
   pvetui = {
