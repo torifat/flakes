@@ -23,14 +23,18 @@
     {
       overlays.default = overlayData.overlay;
 
-      homeManagerModules = lib.listToAttrs (
-        map (path: {
-          name = lib.removeSuffix "/hm-module.nix" (
-            lib.removePrefix (toString ./packages + "/") (toString path)
+      homeManagerModules =
+        let
+          individual = lib.listToAttrs (
+            map (path: {
+              name = lib.removeSuffix "/hm-module.nix" (
+                lib.removePrefix (toString ./packages + "/") (toString path)
+              );
+              value = path;
+            }) overlayData.hmModules
           );
-          value = path;
-        }) overlayData.hmModules
-      );
+        in
+        individual // { default.imports = builtins.attrValues individual; };
 
       packages = forAllSystems (
         system:
