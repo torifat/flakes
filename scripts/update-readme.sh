@@ -17,8 +17,10 @@ pkglist=$(nix eval --raw --impure --expr "
       overlays = [ flake.overlays.default ];
       config.allowUnfree = true;
     };
-    names = builtins.sort builtins.lessThan (builtins.attrNames flake.packages.\${system});
+    overlayData = import ./overlays/default.nix { lib = pkgs.lib; };
+    names = builtins.sort builtins.lessThan overlayData.packageNames;
   in
+  \"| Package | Version |\n|---------|---------|\" + \"\n\" +
   builtins.concatStringsSep \"\n\" (
     map (name:
       let
@@ -26,7 +28,7 @@ pkglist=$(nix eval --raw --impure --expr "
         homepage = pkg.meta.homepage or \"\";
         version = pkg.version or \"unknown\";
       in
-      \"* [\${name}](\${homepage}) - \${version}\"
+      \"| [\${name}](\${homepage}) | \`\${version}\` |\"
     ) names
   )
 ")
