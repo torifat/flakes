@@ -49,7 +49,7 @@ home-manager.users.myUser = {
 <!-- pkgs start -->
 | Package | Version |
 |---------|---------|
-| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.33.2` |
+| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.34.0` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v6.001` |
 | [prek](https://github.com/j178/prek) | `v0.3.6` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.2.1` |
