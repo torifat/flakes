@@ -46,6 +46,23 @@
       sha256 = "sha256-dRMyixoqIG6F4flEyi2Qu2a2XicZbk7crJHu0RKJTLg=";
     };
   };
+  rusty-path-of-building = {
+    pname = "rusty-path-of-building";
+    version = "v0.2.14";
+    src = fetchFromGitHub {
+      owner = "meehl";
+      repo = "rusty-path-of-building";
+      rev = "v0.2.14";
+      fetchSubmodules = false;
+      sha256 = "sha256-rgXxy1r4ZyFFG5BiodogeHnCcppw79xzb0MsQDZxL4E=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-rgXxy1r4ZyFFG5BiodogeHnCcppw79xzb0MsQDZxL4E=/Cargo.lock";
+      outputHashes = {
+        
+      };
+    };
+  };
   sf-symbols = {
     pname = "sf-symbols";
     version = "7";

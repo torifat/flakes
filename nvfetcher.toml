@@ -31,3 +31,8 @@ fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/
 [worktrunk]
 src.github = "max-sixty/worktrunk"
 fetch.url = "https://github.com/max-sixty/worktrunk/releases/download/$ver/worktrunk-aarch64-apple-darwin.tar.xz"
+
+[rusty-path-of-building]
+src.github = "meehl/rusty-path-of-building"
+fetch.github = "meehl/rusty-path-of-building"
+cargo_lock = ["Cargo.lock"]

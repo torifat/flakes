@@ -15,7 +15,7 @@ let
     builtins.filter (name: builtins.pathExists (pkgDir + "/${name}/hm-module.nix")) packageNames
   );
   overlay =
-    final: _:
+    final: prev:
     let
       sources = generated {
         inherit (final)
@@ -33,6 +33,7 @@ let
       name:
       let
         system = final.stdenv.hostPlatform.system;
+        basePackage = prev.${name} or null;
         baseSource = sources.${name} or null;
         archSource = sources."${name}-${system}" or null;
         mySource =
@@ -41,8 +42,7 @@ let
           else baseSource;
         pkg = import (pkgDir + "/${name}");
         override = builtins.intersectAttrs (builtins.functionArgs pkg) {
-          pythonPackages = final.python3.pkgs;
-          inherit mySource;
+          inherit mySource basePackage;
         };
       in
       final.callPackage pkg override
