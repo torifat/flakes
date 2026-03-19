@@ -1,4 +1,34 @@
 {
+    "awakened-poe-trade": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "awakened-poe-trade",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-0ei4SOWktanzAX7UuoENy7Cfv1b4s4EKgBl2imSNhXI=",
+            "type": "url",
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.103/Awakened-PoE-Trade-3.28.103-universal.dmg"
+        },
+        "version": "3.28.103"
+    },
+    "awakened-poe-trade-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "awakened-poe-trade-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-p/XDWnE9lm/LwT3r/lhQWtEJ3YoaGRFd4Rv7RbdDIeg=",
+            "type": "url",
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.103/Awakened-PoE-Trade-3.28.103.AppImage"
+        },
+        "version": "3.28.103"
+    },
     "gemini-cli": {
         "cargoLock": null,
         "date": null,

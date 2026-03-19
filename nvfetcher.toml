@@ -32,6 +32,16 @@ fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/
 src.github = "max-sixty/worktrunk"
 fetch.url = "https://github.com/max-sixty/worktrunk/releases/download/$ver/worktrunk-aarch64-apple-darwin.tar.xz"
 
+[awakened-poe-trade]
+src.github = "SnosMe/awakened-poe-trade"
+src.prefix = "v"
+fetch.url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v$ver/Awakened-PoE-Trade-$ver-universal.dmg"
+
+[awakened-poe-trade-x86_64-linux]
+src.github = "SnosMe/awakened-poe-trade"
+src.prefix = "v"
+fetch.url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v$ver/Awakened-PoE-Trade-$ver.AppImage"
+
 [rusty-path-of-building]
 src.github = "meehl/rusty-path-of-building"
 fetch.github = "meehl/rusty-path-of-building"

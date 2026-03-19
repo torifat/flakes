@@ -6,6 +6,22 @@
   dockerTools,
 }:
 {
+  awakened-poe-trade = {
+    pname = "awakened-poe-trade";
+    version = "3.28.103";
+    src = fetchurl {
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.103/Awakened-PoE-Trade-3.28.103-universal.dmg";
+      sha256 = "sha256-0ei4SOWktanzAX7UuoENy7Cfv1b4s4EKgBl2imSNhXI=";
+    };
+  };
+  awakened-poe-trade-x86_64-linux = {
+    pname = "awakened-poe-trade-x86_64-linux";
+    version = "3.28.103";
+    src = fetchurl {
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.28.103/Awakened-PoE-Trade-3.28.103.AppImage";
+      sha256 = "sha256-p/XDWnE9lm/LwT3r/lhQWtEJ3YoaGRFd4Rv7RbdDIeg=";
+    };
+  };
   gemini-cli = {
     pname = "gemini-cli";
     version = "v0.34.0";
