@@ -57,5 +57,5 @@ home-manager.users.myUser = {
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.14` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.30.0` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.30.1` |
 <!-- pkgs end -->
