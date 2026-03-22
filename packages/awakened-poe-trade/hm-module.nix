@@ -50,11 +50,11 @@ in
         "workspace 4, match:tag apt"
       ];
 
-      bind = [
-        "SHIFT, SPACE, pass, class:^(awakened-poe-trade)$"
-        "CTRL, D, pass, class:^(awakened-poe-trade)$"
-        "CTRL ALT, D, pass, class:^(awakened-poe-trade)$"
-        "CTRL, F, pass, class:^(awakened-poe-trade)$"
+      bindn = [
+        "SHIFT, SPACE, sendshortcut, SHIFT, SPACE, class:^(awakened-poe-trade)$"
+        "CTRL, D, sendshortcut, CTRL, D, class:^(awakened-poe-trade)$"
+        "CTRL ALT, D, sendshortcut, CTRL ALT, D, class:^(awakened-poe-trade)$"
+        "CTRL, F, sendshortcut, CTRL, F, class:^(awakened-poe-trade)$"
       ];
     };
   };
