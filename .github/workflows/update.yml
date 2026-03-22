@@ -32,8 +32,15 @@ jobs:
           if [ "$count" -eq 1 ]; then
             msg="$changes"
           else
-            msg="Auto update:
-          $changes"
+            names=$(echo "$changes" | sed 's/:.*//' | sed 's/-\(x86_64\|aarch64\)-\(linux\|darwin\)$//' | sort -u)
+            unique_count=$(echo "$names" | wc -l | tr -d ' ')
+            if [ "$unique_count" -eq 1 ]; then label="package"; else label="packages"; fi
+            if [ "$unique_count" -le 3 ]; then
+              name_list=$(echo "$names" | paste -sd ',' - | sed 's/,/, /g')
+            else
+              name_list="$(echo "$names" | head -3 | paste -sd ',' - | sed 's/,/, /g') & more"
+            fi
+            msg=$(printf "%s %s updated: %s\n\n%s" "$unique_count" "$label" "$name_list" "$changes")
           fi
           {
             echo "COMMIT_MSG<<EOF"
