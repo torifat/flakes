@@ -64,16 +64,16 @@
   };
   rusty-path-of-building = {
     pname = "rusty-path-of-building";
-    version = "v0.2.14";
+    version = "v0.2.15";
     src = fetchFromGitHub {
       owner = "meehl";
       repo = "rusty-path-of-building";
-      rev = "v0.2.14";
+      rev = "v0.2.15";
       fetchSubmodules = false;
-      sha256 = "sha256-rgXxy1r4ZyFFG5BiodogeHnCcppw79xzb0MsQDZxL4E=";
+      sha256 = "sha256-YhCJkyzWVZ1BEux85qyTHlyLS/LaotMoe+tGwwd9EOI=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-rgXxy1r4ZyFFG5BiodogeHnCcppw79xzb0MsQDZxL4E=/Cargo.lock";
+      lockFile = ./. + "/sha256-YhCJkyzWVZ1BEux85qyTHlyLS_LaotMoe+tGwwd9EOI=/Cargo.lock";
       outputHashes = {
         
       };
