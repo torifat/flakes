@@ -40,10 +40,10 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.3.6";
+    version = "v0.3.8";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.3.6/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-UFNdT7Og/QXxN7va5vj/3hdhWUm9KCgX46pXVd2NjUw=";
+      url = "https://github.com/j178/prek/releases/download/v0.3.8/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-cC/eQ5n6+wVM6F0KZDZ2ieNmi2R11zLEpGquUM7ApL4=";
     };
   };
   pvetui = {
@@ -64,16 +64,16 @@
   };
   rusty-path-of-building = {
     pname = "rusty-path-of-building";
-    version = "v0.2.15";
+    version = "v0.2.16";
     src = fetchFromGitHub {
       owner = "meehl";
       repo = "rusty-path-of-building";
-      rev = "v0.2.15";
+      rev = "v0.2.16";
       fetchSubmodules = false;
-      sha256 = "sha256-YhCJkyzWVZ1BEux85qyTHlyLS/LaotMoe+tGwwd9EOI=";
+      sha256 = "sha256-2pXT9Wyn49sGHDqjlmlCRUyIIAEERAKNK6cDTUwwjGM=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-YhCJkyzWVZ1BEux85qyTHlyLS_LaotMoe+tGwwd9EOI=/Cargo.lock";
+      lockFile = ./. + "/sha256-2pXT9Wyn49sGHDqjlmlCRUyIIAEERAKNK6cDTUwwjGM=/Cargo.lock";
       outputHashes = {
         
       };
