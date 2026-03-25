@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Qfol6zATjVK6d4gfA6ql3aVwjqRE7NAYqg5YTyEVDHk=",
+            "sha256": "sha256-SzWPTgz65pxHcRr6v8/K4KLN/dSiu3NJe3u3Nv3TMw4=",
             "type": "url",
-            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.34.0/gemini.js"
+            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.35.0/gemini.js"
         },
-        "version": "v0.34.0"
+        "version": "v0.35.0"
     },
     "googlesans-code": {
         "cargoLock": null,
