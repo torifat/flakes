@@ -50,12 +50,12 @@ home-manager.users.myUser = {
 | Package | Version |
 |---------|---------|
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.28.103` |
-| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.35.1` |
+| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.35.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v6.001` |
 | [prek](https://github.com/j178/prek) | `v0.3.8` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.3.0` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.16` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.32.0` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.33.0` |
 <!-- pkgs end -->

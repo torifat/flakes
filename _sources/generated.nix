@@ -24,10 +24,10 @@
   };
   gemini-cli = {
     pname = "gemini-cli";
-    version = "v0.35.1";
+    version = "v0.35.2";
     src = fetchurl {
-      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.35.1/gemini.js";
-      sha256 = "sha256-mn5AFaZfXDm0C6qBEtekFGurFGz2pOoIN8VPmi7TDxA=";
+      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.35.2/gemini.js";
+      sha256 = "sha256-FIYuBBSNMLCTtLHpFNz6eD2YoWr0AYuMaaOfiq1qHIo=";
     };
   };
   googlesans-code = {
@@ -100,10 +100,10 @@
   };
   worktrunk = {
     pname = "worktrunk";
-    version = "v0.32.0";
+    version = "v0.33.0";
     src = fetchurl {
-      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.32.0/worktrunk-aarch64-apple-darwin.tar.xz";
-      sha256 = "sha256-U4mvzJYReZjpm0vJ2yb3O7pfG/qwrLFP7TvUBAo4iVw=";
+      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.33.0/worktrunk-aarch64-apple-darwin.tar.xz";
+      sha256 = "sha256-t0iXsKhBevl46W98aqziTy8/t9JoOCdWBBt7qUl2I14=";
     };
   };
 }
