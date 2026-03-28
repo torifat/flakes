@@ -46,3 +46,8 @@ fetch.url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v$ve
 src.github = "meehl/rusty-path-of-building"
 fetch.github = "meehl/rusty-path-of-building"
 cargo_lock = ["Cargo.lock"]
+
+[television]
+src.github = "alexpasmantier/television"
+fetch.github = "alexpasmantier/television"
+cargo_lock = ["Cargo.lock"]
