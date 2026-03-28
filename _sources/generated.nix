@@ -98,6 +98,23 @@
       sha256 = "sha256-RqL0QkHV6mvPPt7ibdyhMN6vHZGFIw4VkV+kdE4GI5Y=";
     };
   };
+  television = {
+    pname = "television";
+    version = "0.15.4";
+    src = fetchFromGitHub {
+      owner = "alexpasmantier";
+      repo = "television";
+      rev = "0.15.4";
+      fetchSubmodules = false;
+      sha256 = "sha256-0tZx6UgXlB6rVAtf10gEFcHGzGpI6vfWBAYxvfOa5MM=";
+    };
+    cargoLock."Cargo.lock" = {
+      lockFile = ./. + "/sha256-0tZx6UgXlB6rVAtf10gEFcHGzGpI6vfWBAYxvfOa5MM=/Cargo.lock";
+      outputHashes = {
+        
+      };
+    };
+  };
   worktrunk = {
     pname = "worktrunk";
     version = "v0.33.0";
