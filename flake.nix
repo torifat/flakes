@@ -44,10 +44,15 @@
             overlays = [ overlayData.overlay ];
             config.allowUnfree = true;
           };
+          packageAvailableOn = name:
+            let
+              pkg = builtins.tryEval pkgs.${name};
+            in
+            pkg.success
+            && builtins.elem system ((pkg.value.meta.platforms or supportedSystems));
+          packageNamesForSystem = builtins.filter packageAvailableOn overlayData.packageNames;
         in
-        lib.filterAttrs (
-          _: pkg: builtins.elem system (pkg.meta.platforms or supportedSystems)
-        ) (lib.genAttrs overlayData.packageNames (name: pkgs.${name}))
+        lib.genAttrs packageNamesForSystem (name: pkgs.${name})
       );
 
       devShells = forAllSystems (

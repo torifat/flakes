@@ -10,7 +10,10 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
     steps:
       - uses: actions/checkout@v6
 
@@ -21,9 +24,27 @@ jobs:
       - name: Update sources with nvfetcher
         id: nvfetcher
         run: |
-          output=$(nix develop --command nvfetcher 2>&1)
+          keyfile="$RUNNER_TEMP/nvchecker-keyfile.toml"
+          cat > "$keyfile" <<EOF
+          [keys]
+          github = "${{ github.token }}"
+          EOF
+
+          set +e
+          output=$(nix develop --command nvfetcher -k "$keyfile" 2>&1)
+          status=$?
+          set -e
+
+          rm -f "$keyfile"
+
           echo "$output"
-          changes=$(echo "$output" | sed -n '/^Changes:/,$ { /^Changes:/d; /^$/d; p }')
+
+          if [ "$status" -ne 0 ]; then
+            echo "nvfetcher failed with exit code $status" >&2
+            exit "$status"
+          fi
+
+          changes=$(printf '%s\n' "$output" | awk 'seen { if (NF) print; next } /^Changes:$/ { seen = 1 }')
           if [ -z "$changes" ]; then
             echo "No changes detected"
             exit 0
@@ -32,7 +53,7 @@ jobs:
           if [ "$count" -eq 1 ]; then
             msg="$changes"
           else
-            names=$(echo "$changes" | sed 's/:.*//' | sed 's/-\(x86_64\|aarch64\)-\(linux\|darwin\)$//' | sort -u)
+            names=$(printf '%s\n' "$changes" | cut -d: -f1 | sed -E 's/-(x86_64|aarch64)-(linux|darwin)$//' | sort -u)
             unique_count=$(echo "$names" | wc -l | tr -d ' ')
             if [ "$unique_count" -eq 1 ]; then label="package"; else label="packages"; fi
             if [ "$unique_count" -le 3 ]; then
