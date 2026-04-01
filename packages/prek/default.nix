@@ -24,7 +24,10 @@ stdenv.mkDerivation rec {
     homepage = "https://github.com/j178/prek";
     mainProgram = pname;
     license = licenses.mit;
-    platforms = platforms.unix;
+    platforms = [
+      "aarch64-darwin"
+      "x86_64-linux"
+    ];
     maintainers = with maintainers; [ torifat ];
   };
 }

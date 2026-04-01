@@ -2,6 +2,10 @@
 src.github = "j178/prek"
 fetch.url = "https://github.com/j178/prek/releases/download/$ver/prek-aarch64-apple-darwin.tar.gz"
 
+[prek-x86_64-linux]
+src.github = "j178/prek"
+fetch.url = "https://github.com/j178/prek/releases/download/$ver/prek-x86_64-unknown-linux-gnu.tar.gz"
+
 [googlesans-code]
 src.github = "googlefonts/googlesans-code"
 fetch.url = "https://github.com/googlefonts/googlesans-code/releases/download/$ver/GoogleSansCode-$ver.zip"
