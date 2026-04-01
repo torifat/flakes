@@ -8,12 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-sources
+
 jobs:
   update:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest]
+    runs-on: macos-latest
+    outputs:
+      changed: ${{ env.COMMIT_MSG != null && 'true' || 'false' }}
     steps:
       - uses: actions/checkout@v6
 
@@ -77,13 +79,28 @@ jobs:
         if: ${{ env.COMMIT_MSG != null }}
         run: ./scripts/update-readme.sh x86_64-linux
 
-      - name: Check flake
-        if: ${{ env.COMMIT_MSG != null }}
-        run: nix flake check
-
       - name: Commit changes
         if: ${{ env.COMMIT_MSG != null }}
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: ${{ env.COMMIT_MSG }}
           file_pattern: "_sources/* README.md"
+
+  check:
+    needs: update
+    if: ${{ needs.update.outputs.changed == 'true' }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - uses: cachix/install-nix-action@v31
+        with:
+          nix_path: nixpkgs=channel:nixpkgs-unstable
+
+      - name: Check flake
+        run: nix flake check
