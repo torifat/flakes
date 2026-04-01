@@ -74,6 +74,21 @@
         },
         "version": "v0.3.8"
     },
+    "prek-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "prek-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-gOxq258YgzRN5Sy5Q9Nx7P0lNAxKa1uB4mANJ+JGz6E=",
+            "type": "url",
+            "url": "https://github.com/j178/prek/releases/download/v0.3.8/prek-x86_64-unknown-linux-gnu.tar.gz"
+        },
+        "version": "v0.3.8"
+    },
     "pvetui": {
         "cargoLock": null,
         "date": null,

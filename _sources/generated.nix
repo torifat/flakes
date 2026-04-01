@@ -46,6 +46,14 @@
       sha256 = "sha256-cC/eQ5n6+wVM6F0KZDZ2ieNmi2R11zLEpGquUM7ApL4=";
     };
   };
+  prek-x86_64-linux = {
+    pname = "prek-x86_64-linux";
+    version = "v0.3.8";
+    src = fetchurl {
+      url = "https://github.com/j178/prek/releases/download/v0.3.8/prek-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-gOxq258YgzRN5Sy5Q9Nx7P0lNAxKa1uB4mANJ+JGz6E=";
+    };
+  };
   pvetui = {
     pname = "pvetui";
     version = "1.3.0";
