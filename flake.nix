@@ -12,8 +12,6 @@
 
       supportedSystems = [
         "aarch64-darwin"
-        "x86_64-darwin"
-        "aarch64-linux"
         "x86_64-linux"
       ];
       forAllSystems = lib.genAttrs supportedSystems;
@@ -44,12 +42,12 @@
             overlays = [ overlayData.overlay ];
             config.allowUnfree = true;
           };
-          packageAvailableOn = name:
+          packageAvailableOn =
+            name:
             let
               pkg = builtins.tryEval pkgs.${name};
             in
-            pkg.success
-            && builtins.elem system ((pkg.value.meta.platforms or supportedSystems));
+            pkg.success && builtins.elem system ((pkg.value.meta.platforms or supportedSystems));
           packageNamesForSystem = builtins.filter packageAvailableOn overlayData.packageNames;
         in
         lib.genAttrs packageNamesForSystem (name: pkgs.${name})
