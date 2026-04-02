@@ -30,7 +30,7 @@ fetch.url = "https://github.com/devnullvoid/pvetui/releases/download/v$ver/pvetu
 
 [gemini-cli]
 src.github = "google-gemini/gemini-cli"
-fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/gemini.js"
+fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/gemini-cli-bundle.zip"
 
 [worktrunk]
 src.github = "max-sixty/worktrunk"

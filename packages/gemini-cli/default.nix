@@ -1,6 +1,7 @@
 {
   stdenv,
   lib,
+  unzip,
   makeWrapper,
   bun,
   mySource,
@@ -10,10 +11,12 @@
 stdenv.mkDerivation rec {
   inherit (mySource) pname version src;
 
-  nativeBuildInputs = [ makeWrapper ];
+  nativeBuildInputs = [
+    unzip
+    makeWrapper
+  ];
 
-  # Since the source is a single file, we don't need to unpack it
-  dontUnpack = true;
+  sourceRoot = ".";
 
   installPhase = ''
     runHook preInstall
@@ -21,7 +24,7 @@ stdenv.mkDerivation rec {
     mkdir -p $out/bin
     mkdir -p $out/lib/${pname}
 
-    cp $src $out/lib/${pname}/${pname}.js
+    cp -r . $out/lib/${pname}
 
     makeWrapper ${bun}/bin/bun $out/bin/gemini \
       --add-flags "run" \
