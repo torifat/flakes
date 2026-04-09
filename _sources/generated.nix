@@ -108,16 +108,16 @@
   };
   television = {
     pname = "television";
-    version = "0.15.4";
+    version = "0.15.5";
     src = fetchFromGitHub {
       owner = "alexpasmantier";
       repo = "television";
-      rev = "0.15.4";
+      rev = "0.15.5";
       fetchSubmodules = false;
-      sha256 = "sha256-0tZx6UgXlB6rVAtf10gEFcHGzGpI6vfWBAYxvfOa5MM=";
+      sha256 = "sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-0tZx6UgXlB6rVAtf10gEFcHGzGpI6vfWBAYxvfOa5MM=/Cargo.lock";
+      lockFile = ./. + "/sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=/Cargo.lock";
       outputHashes = {
         
       };
@@ -125,10 +125,10 @@
   };
   worktrunk = {
     pname = "worktrunk";
-    version = "v0.35.0";
+    version = "v0.35.2";
     src = fetchurl {
-      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.35.0/worktrunk-aarch64-apple-darwin.tar.xz";
-      sha256 = "sha256-PWaU7GUERl/K0hBvEoQpnMmVIcZ8qvCE1OQxhNxhq58=";
+      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.35.2/worktrunk-aarch64-apple-darwin.tar.xz";
+      sha256 = "sha256-QDShbafzs7P4HtumqsS6afIACQOEtgUFU+IyXwZC2Gc=";
     };
   };
 }
