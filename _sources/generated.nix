@@ -32,10 +32,10 @@
   };
   googlesans-code = {
     pname = "googlesans-code";
-    version = "v6.001";
+    version = "v7.000";
     src = fetchurl {
-      url = "https://github.com/googlefonts/googlesans-code/releases/download/v6.001/GoogleSansCode-v6.001.zip";
-      sha256 = "sha256-fFMKLTDQpW5xYQIDHSsGkfk2nE7h6ib3GYLPrb83YDA=";
+      url = "https://github.com/googlefonts/googlesans-code/releases/download/v7.000/GoogleSansCode-v7.000.zip";
+      sha256 = "sha256-W9KUKDy5MXJZi3+k9ihVxjx59VuAPnXXOHd/CTtzxYY=";
     };
   };
   prek = {
