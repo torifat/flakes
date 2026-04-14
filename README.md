@@ -58,5 +58,5 @@ home-manager.users.myUser = {
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
 | [television](https://github.com/alexpasmantier/television) | `0.15.5` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.36.0` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.37.0` |
 <!-- pkgs end -->
