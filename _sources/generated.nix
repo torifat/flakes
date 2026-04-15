@@ -56,18 +56,18 @@
   };
   pvetui = {
     pname = "pvetui";
-    version = "1.3.0";
+    version = "1.3.1";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.3.0/pvetui_1.3.0_darwin_arm64.tar.gz";
-      sha256 = "sha256-m/oy3zmda0/mMEsmjuVNEi/uRypFaGsSYhWc4tKS7B0=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.3.1/pvetui_1.3.1_darwin_arm64.tar.gz";
+      sha256 = "sha256-NHC4oHfmr1jp9xFGkLpNA7dI0Gbcrmpan55dbdhn1PU=";
     };
   };
   pvetui-x86_64-linux = {
     pname = "pvetui-x86_64-linux";
-    version = "1.3.0";
+    version = "1.3.1";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.3.0/pvetui_1.3.0_linux_amd64.tar.gz";
-      sha256 = "sha256-4UvLKiGMCmPkP+1RpGYHlFpIDwGUUsaLJefJRZxufRs=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.3.1/pvetui_1.3.1_linux_amd64.tar.gz";
+      sha256 = "sha256-4FgLQGNmWSFr1hY3+4luWmN/NvyOlFlwwjnTfksok8k=";
     };
   };
   rusty-path-of-building = {
@@ -125,10 +125,10 @@
   };
   worktrunk = {
     pname = "worktrunk";
-    version = "v0.37.0";
+    version = "v0.37.1";
     src = fetchurl {
-      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.37.0/worktrunk-aarch64-apple-darwin.tar.xz";
-      sha256 = "sha256-OOiJ3Jc7WdN8OE0MBhllPCCstF7lBPwjd7F/1nn6XkM=";
+      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.37.1/worktrunk-aarch64-apple-darwin.tar.xz";
+      sha256 = "sha256-RwhfLPRi+79BBtcKYvoSXulKVh3ByvGvOzVJUv9lyeg=";
     };
   };
 }

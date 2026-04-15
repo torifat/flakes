@@ -53,10 +53,10 @@ home-manager.users.myUser = {
 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.38.0` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.000` |
 | [prek](https://github.com/j178/prek) | `v0.3.9` |
-| [pvetui](https://github.com/devnullvoid/pvetui) | `1.3.0` |
+| [pvetui](https://github.com/devnullvoid/pvetui) | `1.3.1` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.16` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
 | [television](https://github.com/alexpasmantier/television) | `0.15.6` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.37.0` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.37.1` |
 <!-- pkgs end -->
