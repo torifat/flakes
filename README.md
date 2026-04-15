@@ -50,7 +50,7 @@ home-manager.users.myUser = {
 | Package | Version |
 |---------|---------|
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.28.103` |
-| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.38.0` |
+| [gemini-cli](https://github.com/google-gemini/gemini-cli) | `v0.38.1` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.000` |
 | [prek](https://github.com/j178/prek) | `v0.3.9` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.3.1` |
