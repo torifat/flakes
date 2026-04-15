@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-O278kKvhWOS2ahWG6rloaOQzS8vMP7f9OITni1bzkY4=",
+            "sha256": "sha256-8qK6jHeWsheOqrWZyv4Jc4F6sr2thj0zQcC3lB7mApw=",
             "type": "url",
-            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.37.2/gemini-cli-bundle.zip"
+            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.38.0/gemini-cli-bundle.zip"
         },
-        "version": "v0.37.2"
+        "version": "v0.38.0"
     },
     "googlesans-code": {
         "cargoLock": null,
@@ -184,7 +184,7 @@
     "television": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=/Cargo.lock",
+                "sha256-0oWgVfybsSLHDeAqTQP2ijJ_84XdcdqD0eqxIv6jk9o=/Cargo.lock",
                 {}
             ]
         },
@@ -200,12 +200,12 @@
             "name": null,
             "owner": "alexpasmantier",
             "repo": "television",
-            "rev": "0.15.5",
-            "sha256": "sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=",
+            "rev": "0.15.6",
+            "sha256": "sha256-0oWgVfybsSLHDeAqTQP2ijJ/84XdcdqD0eqxIv6jk9o=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0.15.5"
+        "version": "0.15.6"
     },
     "worktrunk": {
         "cargoLock": null,

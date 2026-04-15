@@ -24,10 +24,10 @@
   };
   gemini-cli = {
     pname = "gemini-cli";
-    version = "v0.37.2";
+    version = "v0.38.0";
     src = fetchurl {
-      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.37.2/gemini-cli-bundle.zip";
-      sha256 = "sha256-O278kKvhWOS2ahWG6rloaOQzS8vMP7f9OITni1bzkY4=";
+      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.38.0/gemini-cli-bundle.zip";
+      sha256 = "sha256-8qK6jHeWsheOqrWZyv4Jc4F6sr2thj0zQcC3lB7mApw=";
     };
   };
   googlesans-code = {
@@ -108,16 +108,16 @@
   };
   television = {
     pname = "television";
-    version = "0.15.5";
+    version = "0.15.6";
     src = fetchFromGitHub {
       owner = "alexpasmantier";
       repo = "television";
-      rev = "0.15.5";
+      rev = "0.15.6";
       fetchSubmodules = false;
-      sha256 = "sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=";
+      sha256 = "sha256-0oWgVfybsSLHDeAqTQP2ijJ/84XdcdqD0eqxIv6jk9o=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-p0FRLc55Ly6pkQfse1kNGpJhoXjMZIYVbNzDfjWW85Q=/Cargo.lock";
+      lockFile = ./. + "/sha256-0oWgVfybsSLHDeAqTQP2ijJ_84XdcdqD0eqxIv6jk9o=/Cargo.lock";
       outputHashes = {
         
       };
