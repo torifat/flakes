@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-XeegC0K6rkP5vnTv4X0saZqFHzGXu0LcuWWBZZqsQGQ=",
+            "sha256": "sha256-JWqnHcAQjOagTGErHkdKzgU2Dwpe+z4j2bNOwNMoMhw=",
             "type": "url",
-            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.39.0/gemini-cli-bundle.zip"
+            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.39.1/gemini-cli-bundle.zip"
         },
-        "version": "v0.39.0"
+        "version": "v0.39.1"
     },
     "googlesans-code": {
         "cargoLock": null,

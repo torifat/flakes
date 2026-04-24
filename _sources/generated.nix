@@ -24,10 +24,10 @@
   };
   gemini-cli = {
     pname = "gemini-cli";
-    version = "v0.39.0";
+    version = "v0.39.1";
     src = fetchurl {
-      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.39.0/gemini-cli-bundle.zip";
-      sha256 = "sha256-XeegC0K6rkP5vnTv4X0saZqFHzGXu0LcuWWBZZqsQGQ=";
+      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.39.1/gemini-cli-bundle.zip";
+      sha256 = "sha256-JWqnHcAQjOagTGErHkdKzgU2Dwpe+z4j2bNOwNMoMhw=";
     };
   };
   googlesans-code = {
