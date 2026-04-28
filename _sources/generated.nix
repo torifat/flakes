@@ -125,10 +125,10 @@
   };
   worktrunk = {
     pname = "worktrunk";
-    version = "v0.45.1";
+    version = "v0.45.2";
     src = fetchurl {
-      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.45.1/worktrunk-aarch64-apple-darwin.tar.xz";
-      sha256 = "sha256-DBt392uU/MsVsYA+wq25+J+n/FnuiE3csB1MuX2ktGM=";
+      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.45.2/worktrunk-aarch64-apple-darwin.tar.xz";
+      sha256 = "sha256-jtrG+VTZRmjlGML3ohuai6Zf0WknJaZbYB4CA7/A4A8=";
     };
   };
 }
