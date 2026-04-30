@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fu3wMLSv3mfFrcJ7hAxqmKdQMJsiXxug4ks61l8U6p0=",
+            "sha256": "sha256-HDu07LbFdjakD6oF8VTqxUusEyEgdtSq7NlySzZpLdE=",
             "type": "url",
-            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.40.0/gemini-cli-bundle.zip"
+            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.40.1/gemini-cli-bundle.zip"
         },
-        "version": "v0.40.0"
+        "version": "v0.40.1"
     },
     "googlesans-code": {
         "cargoLock": null,
@@ -216,10 +216,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-El2WDpHhVJd040LQUvZVhtrVn3snY4lPIqEIQehjrKg=",
+            "sha256": "sha256-7134oiIGeeidNht6wjjWx6NNvJ6kZcPBmKyQDLS2RWI=",
             "type": "url",
-            "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.46.0/worktrunk-aarch64-apple-darwin.tar.xz"
+            "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.46.1/worktrunk-aarch64-apple-darwin.tar.xz"
         },
-        "version": "v0.46.0"
+        "version": "v0.46.1"
     }
 }
