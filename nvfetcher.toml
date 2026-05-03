@@ -28,10 +28,6 @@ src.github = "devnullvoid/pvetui"
 src.prefix = "v"
 fetch.url = "https://github.com/devnullvoid/pvetui/releases/download/v$ver/pvetui_$ver_linux_amd64.tar.gz"
 
-[gemini-cli]
-src.github = "google-gemini/gemini-cli"
-fetch.url = "https://github.com/google-gemini/gemini-cli/releases/download/$ver/gemini-cli-bundle.zip"
-
 [worktrunk]
 src.github = "max-sixty/worktrunk"
 fetch.url = "https://github.com/max-sixty/worktrunk/releases/download/$ver/worktrunk-aarch64-apple-darwin.tar.xz"

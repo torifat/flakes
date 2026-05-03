@@ -29,21 +29,6 @@
         },
         "version": "3.28.103"
     },
-    "gemini-cli": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "gemini-cli",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "name": null,
-            "sha256": "sha256-HDu07LbFdjakD6oF8VTqxUusEyEgdtSq7NlySzZpLdE=",
-            "type": "url",
-            "url": "https://github.com/google-gemini/gemini-cli/releases/download/v0.40.1/gemini-cli-bundle.zip"
-        },
-        "version": "v0.40.1"
-    },
     "googlesans-code": {
         "cargoLock": null,
         "date": null,

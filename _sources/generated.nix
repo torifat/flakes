@@ -22,14 +22,6 @@
       sha256 = "sha256-p/XDWnE9lm/LwT3r/lhQWtEJ3YoaGRFd4Rv7RbdDIeg=";
     };
   };
-  gemini-cli = {
-    pname = "gemini-cli";
-    version = "v0.40.1";
-    src = fetchurl {
-      url = "https://github.com/google-gemini/gemini-cli/releases/download/v0.40.1/gemini-cli-bundle.zip";
-      sha256 = "sha256-HDu07LbFdjakD6oF8VTqxUusEyEgdtSq7NlySzZpLdE=";
-    };
-  };
   googlesans-code = {
     pname = "googlesans-code";
     version = "v7.000";
