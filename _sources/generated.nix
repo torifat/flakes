@@ -32,18 +32,18 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.3.12";
+    version = "v0.3.13";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.3.12/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-jjGg4hwtcOBYNQD3KOLBqrpFw5ei7yxOpDr7fNZPXQQ=";
+      url = "https://github.com/j178/prek/releases/download/v0.3.13/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-Czs90Pure5UhcoAkgZa950G0e43nv2DeULShKpzBex8=";
     };
   };
   prek-x86_64-linux = {
     pname = "prek-x86_64-linux";
-    version = "v0.3.12";
+    version = "v0.3.13";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.3.12/prek-x86_64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-+6rqKieYHR0AheyBtQh/Xaq92GcVbGk2iGl5gEmWWDU=";
+      url = "https://github.com/j178/prek/releases/download/v0.3.13/prek-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-QImLEQzbDXDTt0YcnkaNWCHOFEyLqJDu3yK/SeSBcnQ=";
     };
   };
   pvetui = {
