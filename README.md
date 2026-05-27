@@ -51,7 +51,7 @@ home-manager.users.myUser = {
 |---------|---------|
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.28.103` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.000` |
-| [prek](https://github.com/j178/prek) | `v0.4.2` |
+| [prek](https://github.com/j178/prek) | `v0.4.3` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.0` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.17` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
