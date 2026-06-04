@@ -53,11 +53,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-gOEKs5YZQO9NWwzeA+1nD4F23WBymgPmp9kq4AcA4HI=",
+            "sha256": "sha256-09dPlru5/ojRS9sxGVAfjzlgK4heGfV8ZWd5FZmv0jE=",
             "type": "url",
-            "url": "https://github.com/j178/prek/releases/download/v0.4.3/prek-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/j178/prek/releases/download/v0.4.4/prek-aarch64-apple-darwin.tar.gz"
         },
-        "version": "v0.4.3"
+        "version": "v0.4.4"
     },
     "prek-x86_64-linux": {
         "cargoLock": null,
@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ioIQ1kR2ZXysPnl6+hCQEdjYcsCeOkB/UMWk3eBjs4E=",
+            "sha256": "sha256-5/2pWV2psnvoDYGf1SVjI6+RM+4lFOSyrn66XrxE3pE=",
             "type": "url",
-            "url": "https://github.com/j178/prek/releases/download/v0.4.3/prek-x86_64-unknown-linux-gnu.tar.gz"
+            "url": "https://github.com/j178/prek/releases/download/v0.4.4/prek-x86_64-unknown-linux-gnu.tar.gz"
         },
-        "version": "v0.4.3"
+        "version": "v0.4.4"
     },
     "pvetui": {
         "cargoLock": null,
