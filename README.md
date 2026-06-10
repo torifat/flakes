@@ -50,7 +50,7 @@ home-manager.users.myUser = {
 | Package | Version |
 |---------|---------|
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.28.103` |
-| [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.000` |
+| [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
 | [prek](https://github.com/j178/prek) | `v0.4.4` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.1` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.18` |
