@@ -24,10 +24,10 @@
   };
   googlesans-code = {
     pname = "googlesans-code";
-    version = "v7.000";
+    version = "v7.001";
     src = fetchurl {
-      url = "https://github.com/googlefonts/googlesans-code/releases/download/v7.000/GoogleSansCode-v7.000.zip";
-      sha256 = "sha256-W9KUKDy5MXJZi3+k9ihVxjx59VuAPnXXOHd/CTtzxYY=";
+      url = "https://github.com/googlefonts/googlesans-code/releases/download/v7.001/GoogleSansCode-v7.001.zip";
+      sha256 = "sha256-7ruipDiII5boUwytbWy4AYKwr7bp4K0HtzQDWaU7ouk=";
     };
   };
   prek = {

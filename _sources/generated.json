@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-W9KUKDy5MXJZi3+k9ihVxjx59VuAPnXXOHd/CTtzxYY=",
+            "sha256": "sha256-7ruipDiII5boUwytbWy4AYKwr7bp4K0HtzQDWaU7ouk=",
             "type": "url",
-            "url": "https://github.com/googlefonts/googlesans-code/releases/download/v7.000/GoogleSansCode-v7.000.zip"
+            "url": "https://github.com/googlefonts/googlesans-code/releases/download/v7.001/GoogleSansCode-v7.001.zip"
         },
-        "version": "v7.000"
+        "version": "v7.001"
     },
     "prek": {
         "cargoLock": null,
