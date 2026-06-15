@@ -100,16 +100,16 @@
   };
   television = {
     pname = "television";
-    version = "0.15.8";
+    version = "0.15.9";
     src = fetchFromGitHub {
       owner = "alexpasmantier";
       repo = "television";
-      rev = "0.15.8";
+      rev = "0.15.9";
       fetchSubmodules = false;
-      sha256 = "sha256-Q+F+Q/DCIML1d5bupaoReVMmCldfp7rzmoVgaqg7bPw=";
+      sha256 = "sha256-JrQUFlhAAaB+VGP184I44hSsIyfCaTMNXxyPp0E5GM0=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-Q+F+Q_DCIML1d5bupaoReVMmCldfp7rzmoVgaqg7bPw=/Cargo.lock";
+      lockFile = ./. + "/sha256-JrQUFlhAAaB+VGP184I44hSsIyfCaTMNXxyPp0E5GM0=/Cargo.lock";
       outputHashes = {
         
       };
