@@ -22,6 +22,22 @@
       sha256 = "sha256-p/XDWnE9lm/LwT3r/lhQWtEJ3YoaGRFd4Rv7RbdDIeg=";
     };
   };
+  browserpass = {
+    pname = "browserpass";
+    version = "3.1.2";
+    src = fetchurl {
+      url = "https://github.com/browserpass/browserpass-native/releases/download/v3.1.2/browserpass-darwin-arm64-3.1.2.tar.gz";
+      sha256 = "sha256-4ZHV3Zf2tYsOgBbsIml52E64bz1z6O8I9zdllviFIGA=";
+    };
+  };
+  browserpass-x86_64-linux = {
+    pname = "browserpass-x86_64-linux";
+    version = "3.1.2";
+    src = fetchurl {
+      url = "https://github.com/browserpass/browserpass-native/releases/download/v3.1.2/browserpass-linux64-3.1.2.tar.gz";
+      sha256 = "sha256-Ci37oTHetxVTpJ3ZTBanuEiTXpoFXs/Ca21v5cgYnio=";
+    };
+  };
   googlesans-code = {
     pname = "googlesans-code";
     version = "v7.001";

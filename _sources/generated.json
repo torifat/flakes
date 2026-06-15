@@ -29,6 +29,36 @@
         },
         "version": "3.28.103"
     },
+    "browserpass": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "browserpass",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-4ZHV3Zf2tYsOgBbsIml52E64bz1z6O8I9zdllviFIGA=",
+            "type": "url",
+            "url": "https://github.com/browserpass/browserpass-native/releases/download/v3.1.2/browserpass-darwin-arm64-3.1.2.tar.gz"
+        },
+        "version": "3.1.2"
+    },
+    "browserpass-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "browserpass-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Ci37oTHetxVTpJ3ZTBanuEiTXpoFXs/Ca21v5cgYnio=",
+            "type": "url",
+            "url": "https://github.com/browserpass/browserpass-native/releases/download/v3.1.2/browserpass-linux64-3.1.2.tar.gz"
+        },
+        "version": "3.1.2"
+    },
     "googlesans-code": {
         "cargoLock": null,
         "date": null,
