@@ -169,7 +169,7 @@
     "television": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-Q+F+Q_DCIML1d5bupaoReVMmCldfp7rzmoVgaqg7bPw=/Cargo.lock",
+                "sha256-JrQUFlhAAaB+VGP184I44hSsIyfCaTMNXxyPp0E5GM0=/Cargo.lock",
                 {}
             ]
         },
@@ -185,12 +185,12 @@
             "name": null,
             "owner": "alexpasmantier",
             "repo": "television",
-            "rev": "0.15.8",
-            "sha256": "sha256-Q+F+Q/DCIML1d5bupaoReVMmCldfp7rzmoVgaqg7bPw=",
+            "rev": "0.15.9",
+            "sha256": "sha256-JrQUFlhAAaB+VGP184I44hSsIyfCaTMNXxyPp0E5GM0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0.15.8"
+        "version": "0.15.9"
     },
     "worktrunk": {
         "cargoLock": null,
