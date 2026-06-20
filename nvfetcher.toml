@@ -61,3 +61,8 @@ fetch.url = "https://github.com/browserpass/browserpass-native/releases/download
 src.github = "alexpasmantier/television"
 fetch.github = "alexpasmantier/television"
 cargo_lock = ["Cargo.lock"]
+
+[mole]
+src.github = "tw93/mole"
+src.prefix = "V"
+fetch.url = "https://github.com/tw93/mole/archive/refs/tags/V$ver.tar.gz"

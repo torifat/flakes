@@ -46,6 +46,14 @@
       sha256 = "sha256-7ruipDiII5boUwytbWy4AYKwr7bp4K0HtzQDWaU7ouk=";
     };
   };
+  mole = {
+    pname = "mole";
+    version = "1.43.1";
+    src = fetchurl {
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.43.1.tar.gz";
+      sha256 = "sha256-NSssoDwH2Ti/LrSo1ZLqkuJfZFZJn3Qw18hxAvPIPxM=";
+    };
+  };
   prek = {
     pname = "prek";
     version = "v0.4.5";
