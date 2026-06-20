@@ -74,6 +74,21 @@
         },
         "version": "v7.001"
     },
+    "mole": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "mole",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-NSssoDwH2Ti/LrSo1ZLqkuJfZFZJn3Qw18hxAvPIPxM=",
+            "type": "url",
+            "url": "https://github.com/tw93/mole/archive/refs/tags/V1.43.1.tar.gz"
+        },
+        "version": "1.43.1"
+    },
     "prek": {
         "cargoLock": null,
         "date": null,
