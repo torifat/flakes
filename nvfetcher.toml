@@ -66,3 +66,8 @@ cargo_lock = ["Cargo.lock"]
 src.github = "tw93/mole"
 src.prefix = "V"
 fetch.url = "https://github.com/tw93/mole/archive/refs/tags/V$ver.tar.gz"
+
+[miaoyan]
+src.github = "tw93/MiaoYan"
+src.prefix = "V"
+fetch.url = "https://github.com/tw93/MiaoYan/releases/download/V$ver/MiaoYan_V$ver.zip"

@@ -46,6 +46,14 @@
       sha256 = "sha256-7ruipDiII5boUwytbWy4AYKwr7bp4K0HtzQDWaU7ouk=";
     };
   };
+  miaoyan = {
+    pname = "miaoyan";
+    version = "4.0.0";
+    src = fetchurl {
+      url = "https://github.com/tw93/MiaoYan/releases/download/V4.0.0/MiaoYan_V4.0.0.zip";
+      sha256 = "sha256-qgWyYLLnZRIKsYqdXT7DQLP54MPwWRJqqzur2IBWou8=";
+    };
+  };
   mole = {
     pname = "mole";
     version = "1.43.1";

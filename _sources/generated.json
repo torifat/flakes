@@ -74,6 +74,21 @@
         },
         "version": "v7.001"
     },
+    "miaoyan": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "miaoyan",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-qgWyYLLnZRIKsYqdXT7DQLP54MPwWRJqqzur2IBWou8=",
+            "type": "url",
+            "url": "https://github.com/tw93/MiaoYan/releases/download/V4.0.0/MiaoYan_V4.0.0.zip"
+        },
+        "version": "4.0.0"
+    },
     "mole": {
         "cargoLock": null,
         "date": null,
