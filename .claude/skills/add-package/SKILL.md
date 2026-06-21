@@ -10,6 +10,7 @@ Add a new package to this flakes repo end-to-end: source definition, build, veri
 ## Golden rules
 
 - **Match an existing package.** Pick the closest sibling from the **Package types** table below and mirror its style — copy the sibling's `default.nix` as your starting point.
+- **Name the package in kebab-case.** Lowercase the upstream name with hyphens at word boundaries, splitting CamelCase too (e.g. `OpenSuperWhisper` → `open-super-whisper`). This single `<name>` is the nvfetcher entry, the `packages/<name>/` dir, and the `pname`.
 - **`git add` new/changed files before any `nix build` or `nix flake check`.** Flakes only see git-tracked files; an untracked `packages/<name>/default.nix` produces `does not provide attribute 'packages.<system>.<name>'`. This is the #1 gotcha.
 - **Packages receive `mySource`** (has `.pname`, `.version`, `.src`) from the overlay — use `inherit (mySource) pname version src;`. `basePackage` is also injectable for overrideAttrs-style packages.
 - **Set `meta.platforms`** accurately. `flake.nix` filters packages per system from this, so `nix flake check` passes on all systems. macOS-only tools → `platforms.darwin`. Also set `meta.license`, `meta.maintainers = [ torifat ]`, `meta.homepage`, `meta.description`, and `meta.mainProgram`.
@@ -89,4 +90,13 @@ nix flake check                      # must end with "all checks passed!"
 
 `nix flake check` warns it omits incompatible systems (e.g. x86_64-linux for darwin-only) — that's expected and correct; the platform filter is doing its job.
 
-Do **not** commit or open a PR unless the user asks. The `update.yml` cron keeps versions current automatically once merged.
+### 6. Commit
+
+Once `nix flake check` passes, commit the change (commit only — do **not** push or open a PR unless the user asks):
+
+```
+git add -A
+git commit -m ":package: Add new package <name> <version>"
+```
+
+Use the new package's `<name>` and `<version>` (e.g. `:package: Add new package open-super-whisper 0.1.0`). The `update.yml` cron keeps versions current automatically once merged.
