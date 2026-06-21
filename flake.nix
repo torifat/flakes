@@ -34,6 +34,19 @@
         in
         individual // { default.imports = builtins.attrValues individual; };
 
+      darwinModules =
+        let
+          individual = lib.listToAttrs (
+            map (path: {
+              name = lib.removeSuffix "/darwin-module.nix" (
+                lib.removePrefix (toString ./packages + "/") (toString path)
+              );
+              value = path;
+            }) overlayData.darwinModules
+          );
+        in
+        individual // { default.imports = builtins.attrValues individual; };
+
       packages = forAllSystems (
         system:
         let

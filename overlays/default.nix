@@ -14,6 +14,9 @@ let
   hmModules = builtins.map (name: pkgDir + "/${name}/hm-module.nix") (
     builtins.filter (name: builtins.pathExists (pkgDir + "/${name}/hm-module.nix")) packageNames
   );
+  darwinModules = builtins.map (name: pkgDir + "/${name}/darwin-module.nix") (
+    builtins.filter (name: builtins.pathExists (pkgDir + "/${name}/darwin-module.nix")) packageNames
+  );
   overlay =
     final: prev:
     let
@@ -49,5 +52,5 @@ let
     );
 in
 {
-  inherit overlay hmModules packageNames;
+  inherit overlay hmModules darwinModules packageNames;
 }
