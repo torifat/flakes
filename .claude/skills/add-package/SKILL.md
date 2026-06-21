@@ -82,7 +82,7 @@ nix build .#<name>
 ### 5. Finalize
 
 ```
-nix fmt
+nix fmt packages/<name>/default.nix  # pass the path — bare 'nix fmt' reads stdin and hangs
 bash scripts/update-readme.sh        # regenerates the README package table
 git add -A
 nix flake check                      # must end with "all checks passed!"
