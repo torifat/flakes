@@ -104,6 +104,21 @@
         },
         "version": "1.44.0"
     },
+    "open-super-whisper": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "open-super-whisper",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-r1ylFCwi5b7Tun0mQiI8CkgeSZNfWlps8bx2bH7NnWk=",
+            "type": "url",
+            "url": "https://github.com/Starmel/OpenSuperWhisper/releases/download/0.1.0/OpenSuperWhisper.dmg"
+        },
+        "version": "0.1.0"
+    },
     "prek": {
         "cargoLock": null,
         "date": null,

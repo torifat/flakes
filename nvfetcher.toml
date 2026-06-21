@@ -71,3 +71,7 @@ fetch.url = "https://github.com/tw93/mole/archive/refs/tags/V$ver.tar.gz"
 src.github = "tw93/MiaoYan"
 src.prefix = "V"
 fetch.url = "https://github.com/tw93/MiaoYan/releases/download/V$ver/MiaoYan_V$ver.zip"
+
+[open-super-whisper]
+src.github = "Starmel/OpenSuperWhisper"
+fetch.url = "https://github.com/Starmel/OpenSuperWhisper/releases/download/$ver/OpenSuperWhisper.dmg"

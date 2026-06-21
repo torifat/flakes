@@ -62,6 +62,14 @@
       sha256 = "sha256-o5NNjP97KSwXPrlJ3uCUpGTZJPnWnt5niXXbuBRcj74=";
     };
   };
+  open-super-whisper = {
+    pname = "open-super-whisper";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://github.com/Starmel/OpenSuperWhisper/releases/download/0.1.0/OpenSuperWhisper.dmg";
+      sha256 = "sha256-r1ylFCwi5b7Tun0mQiI8CkgeSZNfWlps8bx2bH7NnWk=";
+    };
+  };
   prek = {
     pname = "prek";
     version = "v0.4.5";
