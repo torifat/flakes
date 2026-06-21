@@ -53,7 +53,7 @@ home-manager.users.myUser = {
 | [browserpass](https://github.com/browserpass/browserpass-native) | `3.1.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | `4.0.0` |
-| [mole](https://github.com/tw93/mole) | `1.43.1` |
+| [mole](https://github.com/tw93/mole) | `1.44.0` |
 | [prek](https://github.com/j178/prek) | `v0.4.5` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.1` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.18` |
