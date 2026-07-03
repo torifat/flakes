@@ -88,18 +88,18 @@
   };
   pvetui = {
     pname = "pvetui";
-    version = "1.4.1";
+    version = "1.4.2";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.1/pvetui_1.4.1_darwin_arm64.tar.gz";
-      sha256 = "sha256-LohAi62OQb6PB1jQgxx0iifo2EMIrqwPUecMuyxUjIA=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_darwin_arm64.tar.gz";
+      sha256 = "sha256-5YTHH7f2lF4ECGJMx0B74wFM9MWGaJGno2V6fxGrhWk=";
     };
   };
   pvetui-x86_64-linux = {
     pname = "pvetui-x86_64-linux";
-    version = "1.4.1";
+    version = "1.4.2";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.1/pvetui_1.4.1_linux_amd64.tar.gz";
-      sha256 = "sha256-f4EMDKDk0xa5OxXIfe4NhhRxvQ8WNVHC5mmAmWdkRkw=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_linux_amd64.tar.gz";
+      sha256 = "sha256-vUSZhs8g1MlpPrfDkx7SyIyA/1Xa7R9UnrALm8K3muc=";
     };
   };
   rusty-path-of-building = {
