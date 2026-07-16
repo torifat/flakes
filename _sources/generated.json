@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-1tcFRoyVrAGpdo2pUmRThajjy5PsmhBfnw970XeuOGc=",
+            "sha256": "sha256-sr50zYC8hvZ52SrjaNFUzjkeTvmJHcVER5drkt95UfE=",
             "type": "url",
-            "url": "https://github.com/j178/prek/releases/download/v0.4.9/prek-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/j178/prek/releases/download/v0.4.10/prek-aarch64-apple-darwin.tar.gz"
         },
-        "version": "v0.4.9"
+        "version": "v0.4.10"
     },
     "prek-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-NUi3MfP7FQsxAwrrt0pTn1LI/uwq2W9nSQRjPDobfWw=",
+            "sha256": "sha256-RGpEcbnT5lF2Kt5zSGWuCSOS9CpOkx/OvLSlCJKKbY0=",
             "type": "url",
-            "url": "https://github.com/j178/prek/releases/download/v0.4.9/prek-x86_64-unknown-linux-gnu.tar.gz"
+            "url": "https://github.com/j178/prek/releases/download/v0.4.10/prek-x86_64-unknown-linux-gnu.tar.gz"
         },
-        "version": "v0.4.9"
+        "version": "v0.4.10"
     },
     "pvetui": {
         "cargoLock": null,
@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-5YTHH7f2lF4ECGJMx0B74wFM9MWGaJGno2V6fxGrhWk=",
+            "sha256": "sha256-0EH5ShnWiUZBzRSNWHofWZPrzgjmfDwGGGhJLex+5AE=",
             "type": "url",
-            "url": "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_darwin_arm64.tar.gz"
+            "url": "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_darwin_arm64.tar.gz"
         },
-        "version": "1.4.2"
+        "version": "1.4.3"
     },
     "pvetui-x86_64-linux": {
         "cargoLock": null,
@@ -173,11 +173,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-vUSZhs8g1MlpPrfDkx7SyIyA/1Xa7R9UnrALm8K3muc=",
+            "sha256": "sha256-XwZz195xOZHTaHD/VpyixD//o3IwAC6fzYoZYOc8NOI=",
             "type": "url",
-            "url": "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_linux_amd64.tar.gz"
+            "url": "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_linux_amd64.tar.gz"
         },
-        "version": "1.4.2"
+        "version": "1.4.3"
     },
     "rusty-path-of-building": {
         "cargoLock": {
