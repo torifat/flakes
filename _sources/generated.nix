@@ -72,34 +72,34 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.4.9";
+    version = "v0.4.10";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.4.9/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-1tcFRoyVrAGpdo2pUmRThajjy5PsmhBfnw970XeuOGc=";
+      url = "https://github.com/j178/prek/releases/download/v0.4.10/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-sr50zYC8hvZ52SrjaNFUzjkeTvmJHcVER5drkt95UfE=";
     };
   };
   prek-x86_64-linux = {
     pname = "prek-x86_64-linux";
-    version = "v0.4.9";
+    version = "v0.4.10";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.4.9/prek-x86_64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-NUi3MfP7FQsxAwrrt0pTn1LI/uwq2W9nSQRjPDobfWw=";
+      url = "https://github.com/j178/prek/releases/download/v0.4.10/prek-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-RGpEcbnT5lF2Kt5zSGWuCSOS9CpOkx/OvLSlCJKKbY0=";
     };
   };
   pvetui = {
     pname = "pvetui";
-    version = "1.4.2";
+    version = "1.4.3";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_darwin_arm64.tar.gz";
-      sha256 = "sha256-5YTHH7f2lF4ECGJMx0B74wFM9MWGaJGno2V6fxGrhWk=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_darwin_arm64.tar.gz";
+      sha256 = "sha256-0EH5ShnWiUZBzRSNWHofWZPrzgjmfDwGGGhJLex+5AE=";
     };
   };
   pvetui-x86_64-linux = {
     pname = "pvetui-x86_64-linux";
-    version = "1.4.2";
+    version = "1.4.3";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.2/pvetui_1.4.2_linux_amd64.tar.gz";
-      sha256 = "sha256-vUSZhs8g1MlpPrfDkx7SyIyA/1Xa7R9UnrALm8K3muc=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_linux_amd64.tar.gz";
+      sha256 = "sha256-XwZz195xOZHTaHD/VpyixD//o3IwAC6fzYoZYOc8NOI=";
     };
   };
   rusty-path-of-building = {
