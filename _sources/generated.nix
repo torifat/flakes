@@ -48,18 +48,18 @@
   };
   miaoyan = {
     pname = "miaoyan";
-    version = "4.0.0";
+    version = "4.1.0";
     src = fetchurl {
-      url = "https://github.com/tw93/MiaoYan/releases/download/V4.0.0/MiaoYan_V4.0.0.zip";
-      sha256 = "sha256-qgWyYLLnZRIKsYqdXT7DQLP54MPwWRJqqzur2IBWou8=";
+      url = "https://github.com/tw93/MiaoYan/releases/download/V4.1.0/MiaoYan_V4.1.0.zip";
+      sha256 = "sha256-LWRrmAMfPkimuAPvROkGsSbCXVlQJ+p9HtTLOnur0zI=";
     };
   };
   mole = {
     pname = "mole";
-    version = "1.46.0";
+    version = "1.47.1";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.46.0.tar.gz";
-      sha256 = "sha256-C/w6FdbbV2WrH+jM60Fvu9xpVFWsA7uUBjCHn8k7et4=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.47.1.tar.gz";
+      sha256 = "sha256-X1yKAcZ7ZE57umWps51hRhqwVDot+p51W1TPrN8h+hA=";
     };
   };
   open-super-whisper = {
