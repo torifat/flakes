@@ -276,10 +276,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-nfECnATr0ZfuoLsIjAIy2jfWbDtNeyPXUsmPvXZvSy0=",
+            "sha256": "sha256-TUJNaCr1JR2StuJQEEbHBLPKYHhhsltgEZcHCuB1GXc=",
             "type": "url",
-            "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.68.0/worktrunk-aarch64-apple-darwin.tar.xz"
+            "url": "https://github.com/max-sixty/worktrunk/releases/download/v0.69.0/worktrunk-aarch64-apple-darwin.tar.xz"
         },
-        "version": "v0.68.0"
+        "version": "v0.69.0"
     }
 }
