@@ -49,7 +49,7 @@ home-manager.users.myUser = {
 <!-- pkgs start -->
 | Package | Version |
 |---------|---------|
-| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.28.104` |
+| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.29.101` |
 | [browserpass](https://github.com/browserpass/browserpass-native) | `3.1.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | `4.1.0` |
