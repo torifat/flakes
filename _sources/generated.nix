@@ -8,18 +8,18 @@
 {
   awakened-poe-trade = {
     pname = "awakened-poe-trade";
-    version = "3.29.102";
+    version = "3.29.103";
     src = fetchurl {
-      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.102/Awakened-PoE-Trade-3.29.102-universal.dmg";
-      sha256 = "sha256-ezRPRqE+DJ72Qj6YC8emDOuqEbBmr6H5+ZLtRzmPW+Y=";
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.103/Awakened-PoE-Trade-3.29.103-universal.dmg";
+      sha256 = "sha256-0HAuFEYtIy1lor3JisnQeSoaikZDQHd7GTzFZxuTG7Y=";
     };
   };
   awakened-poe-trade-x86_64-linux = {
     pname = "awakened-poe-trade-x86_64-linux";
-    version = "3.29.102";
+    version = "3.29.103";
     src = fetchurl {
-      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.102/Awakened-PoE-Trade-3.29.102.AppImage";
-      sha256 = "sha256-mjtdM8tEi+Gvf3B4gopEEqlNfp89+J4w1Jy+dyWtig8=";
+      url = "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.103/Awakened-PoE-Trade-3.29.103.AppImage";
+      sha256 = "sha256-Nxq9b58nmpvXs3xKWYi0IpI9QyYbrLPWJplA1l6hKzE=";
     };
   };
   browserpass = {
@@ -56,10 +56,10 @@
   };
   mole = {
     pname = "mole";
-    version = "1.49.0";
+    version = "1.49.1";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.49.0.tar.gz";
-      sha256 = "sha256-R1XlloZxeGbP4dazoBvAiiTwqbfWhLs4heLBGpTJkyA=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.49.1.tar.gz";
+      sha256 = "sha256-G8h7FzlgsrtdOcJjM0A81S99nK7/tuQ/L0QBj6ElFb8=";
     };
   };
   open-super-whisper = {
