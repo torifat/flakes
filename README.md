@@ -55,7 +55,7 @@ home-manager.users.myUser = {
 | [miaoyan](https://github.com/tw93/MiaoYan) | `4.1.0` |
 | [mole](https://github.com/tw93/mole) | `1.50.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | `0.1.0` |
-| [prek](https://github.com/j178/prek) | `v0.4.12` |
+| [prek](https://github.com/j178/prek) | `v0.4.13` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.3` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.18` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
