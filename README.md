@@ -52,7 +52,7 @@ home-manager.users.myUser = {
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.29.104` |
 | [browserpass](https://github.com/browserpass/browserpass-native) | `3.1.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
-| [miaoyan](https://github.com/tw93/MiaoYan) | `4.1.0` |
+| [miaoyan](https://github.com/tw93/MiaoYan) | `4.2.0` |
 | [mole](https://github.com/tw93/mole) | `1.50.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | `0.1.0` |
 | [prek](https://github.com/j178/prek) | `v0.4.13` |
