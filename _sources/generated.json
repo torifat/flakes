@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Oke/nNKQwV+wsrEJ95j4XrjbMdUjf11BJuRN4Hrelbg=",
+            "sha256": "sha256-EmU609BC6Nkgqfo3XvSp39FYe6/2qDujfmn1ju50bEY=",
             "type": "url",
-            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.104/Awakened-PoE-Trade-3.29.104-universal.dmg"
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.106/Awakened-PoE-Trade-3.29.106-universal.dmg"
         },
-        "version": "3.29.104"
+        "version": "3.29.106"
     },
     "awakened-poe-trade-x86_64-linux": {
         "cargoLock": null,
@@ -23,11 +23,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ApZwjy1tJwUtevLA7QY8/zrnHI5Tt4aXMpTo+5VWGUg=",
+            "sha256": "sha256-YIVEHur99IaVvA/M2cDnSiIGl/wl5UEmehm7ce6bHDU=",
             "type": "url",
-            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.104/Awakened-PoE-Trade-3.29.104.AppImage"
+            "url": "https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.29.106/Awakened-PoE-Trade-3.29.106.AppImage"
         },
-        "version": "3.29.104"
+        "version": "3.29.106"
     },
     "browserpass": {
         "cargoLock": null,
