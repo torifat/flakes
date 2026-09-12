@@ -102,5 +102,19 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixpkgs-unstable
 
+      - uses: cachix/cachix-action@v17
+        with:
+          name: torifat
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
       - name: Check flake
         run: nix flake check
+
+      # nix flake check only builds `checks`; build the packages explicitly so
+      # cachix-action has real store paths to push.
+      - name: Build packages
+        run: |
+          system=$(nix eval --impure --raw --expr builtins.currentSystem)
+          nix build --print-build-logs --no-link \
+            $(nix eval --json ".#packages.$system" --apply builtins.attrNames \
+              | jq -r --arg s "$system" '.[] | ".#packages.\($s).\(.)"')
