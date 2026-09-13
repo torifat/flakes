@@ -56,10 +56,10 @@
   };
   mole = {
     pname = "mole";
-    version = "1.53.0";
+    version = "1.54.0";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.53.0.tar.gz";
-      sha256 = "sha256-NcgS1SmKCMZyBirE4dWlI4dhRP8HCPnFx3OF1S+szHc=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.54.0.tar.gz";
+      sha256 = "sha256-0TU4A/SzLKQpbeaqoh0cF6Hpkm94f1QXZcNXt5+83Ww=";
     };
   };
   open-super-whisper = {
@@ -72,18 +72,18 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.5.2";
+    version = "v0.5.3";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.5.2/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-8+92kviHPDbZQ3x3OJgz0xZfvnBepm5T4WnYOokFX5s=";
+      url = "https://github.com/j178/prek/releases/download/v0.5.3/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-YAbMTmnPyG1V9OQHymC6lgpSG++lT+zpQDhjmx9N44E=";
     };
   };
   prek-x86_64-linux = {
     pname = "prek-x86_64-linux";
-    version = "v0.5.2";
+    version = "v0.5.3";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.5.2/prek-x86_64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-pNUaRjyxXuKSk2jMSITuxO8z3OP/UQG0DorX4SBbj0A=";
+      url = "https://github.com/j178/prek/releases/download/v0.5.3/prek-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-wUdd3FbfAAPHgFV9m1InPZ6xnJ742RFD884DURGCo24=";
     };
   };
   pvetui = {
