@@ -24,11 +24,12 @@ buildGoModule {
   doCheck = false;
 
   # Point the Bash entrypoint at the bundled libexec instead of resolving its
-  # own location (mirrors the Homebrew formula).
+  # own location (mirrors upstream install.sh, which pins the final
+  # `SCRIPT_DIR=` assignment after the symlink-walking block).
   postInstall = ''
     substituteInPlace mole \
       --replace-fail \
-        'SCRIPT_DIR="$(cd "$(dirname "''${BASH_SOURCE[0]}")" && pwd)"' \
+        'SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"' \
         "SCRIPT_DIR='$out/libexec'"
 
     mkdir -p $out/libexec
