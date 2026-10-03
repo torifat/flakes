@@ -56,10 +56,10 @@
   };
   mole = {
     pname = "mole";
-    version = "1.56.1";
+    version = "1.57.0";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.56.1.tar.gz";
-      sha256 = "sha256-Wsl+IT8qcfqfBPbKHNG2hPbBSnBGAfrPfhJ1AlJYAWE=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.57.0.tar.gz";
+      sha256 = "sha256-1bwrecmFzVOcvot4/Rn+x/jaIIPuqv/bjY9SuFZRE7Q=";
     };
   };
   open-super-whisper = {
@@ -88,18 +88,18 @@
   };
   pvetui = {
     pname = "pvetui";
-    version = "1.4.3";
+    version = "1.4.4";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_darwin_arm64.tar.gz";
-      sha256 = "sha256-0EH5ShnWiUZBzRSNWHofWZPrzgjmfDwGGGhJLex+5AE=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.4/pvetui_1.4.4_darwin_arm64.tar.gz";
+      sha256 = "sha256-50dXF/Zlf8ah/gOzd6t6G1bwQA2kkal99pk9jdNReDg=";
     };
   };
   pvetui-x86_64-linux = {
     pname = "pvetui-x86_64-linux";
-    version = "1.4.3";
+    version = "1.4.4";
     src = fetchurl {
-      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.3/pvetui_1.4.3_linux_amd64.tar.gz";
-      sha256 = "sha256-XwZz195xOZHTaHD/VpyixD//o3IwAC6fzYoZYOc8NOI=";
+      url = "https://github.com/devnullvoid/pvetui/releases/download/v1.4.4/pvetui_1.4.4_linux_amd64.tar.gz";
+      sha256 = "sha256-k6sm+16e0seNNcLomKhREoTnm70WFLnI5+UtgH8DcRc=";
     };
   };
   rusty-path-of-building = {

@@ -53,10 +53,10 @@ home-manager.users.myUser = {
 | [browserpass](https://github.com/browserpass/browserpass-native) | `3.1.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | `4.5.0` |
-| [mole](https://github.com/tw93/mole) | `1.56.1` |
+| [mole](https://github.com/tw93/mole) | `1.57.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | `0.1.0` |
 | [prek](https://github.com/j178/prek) | `v0.5.4` |
-| [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.3` |
+| [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.4` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.18` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
