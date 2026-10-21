@@ -72,18 +72,18 @@
   };
   prek = {
     pname = "prek";
-    version = "v0.5.6";
+    version = "v0.5.7";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.5.6/prek-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-x20HmHQroZnwcjrnkHMv6niXi9iKfWucaWK5zcvE9bE=";
+      url = "https://github.com/j178/prek/releases/download/v0.5.7/prek-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-gAxbnII5BFu99CAZV91BdRNeIW6DjECm7BkE/xjrryw=";
     };
   };
   prek-x86_64-linux = {
     pname = "prek-x86_64-linux";
-    version = "v0.5.6";
+    version = "v0.5.7";
     src = fetchurl {
-      url = "https://github.com/j178/prek/releases/download/v0.5.6/prek-x86_64-unknown-linux-gnu.tar.gz";
-      sha256 = "sha256-sMGp/a8PN5wcKAlIGh4VYKSiM3d+zTw40+dFnXelk5g=";
+      url = "https://github.com/j178/prek/releases/download/v0.5.7/prek-x86_64-unknown-linux-gnu.tar.gz";
+      sha256 = "sha256-4jjlprTjhOjRjzPTw7GjKb4OEjf3esbgIeZB3dOiurY=";
     };
   };
   pvetui = {
@@ -157,10 +157,10 @@
   };
   worktrunk = {
     pname = "worktrunk";
-    version = "v0.80.0";
+    version = "v0.81.0";
     src = fetchurl {
-      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.80.0/worktrunk-aarch64-apple-darwin.tar.xz";
-      sha256 = "sha256-iiuwU8S8gN6n2c5sIh/wONEKPS3KLcj2DRsaCU+ng6k=";
+      url = "https://github.com/max-sixty/worktrunk/releases/download/v0.81.0/worktrunk-aarch64-apple-darwin.tar.xz";
+      sha256 = "sha256-ucPy+AcVVM+IUARm1l014YrV7a1XYkeaHxS83dWreII=";
     };
   };
 }
