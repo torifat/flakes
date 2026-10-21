@@ -57,7 +57,7 @@ home-manager.users.myUser = {
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | `0.1.0` |
 | [prek](https://github.com/j178/prek) | `v0.5.7` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.4` |
-| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.2.18` |
+| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.3.1` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
 | [sketchybar-helper](https://github.com/FelixKratz/SketchyBar) | `73ee34d377f62fc12ddbf519a2bcdb4b7946292a` |
 | [television](https://github.com/alexpasmantier/television) | `0.15.9` |
