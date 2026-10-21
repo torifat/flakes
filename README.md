@@ -40,7 +40,7 @@ home-manager.users.myUser = {
 
 # Individual module
 home-manager.users.myUser = {
-  imports = [ flakes.homeManagerModules.worktrunk ];
+  imports = [ flakes.homeManagerModules.awakened-poe-trade ];
 };
 ```
 
