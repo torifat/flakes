@@ -9,6 +9,8 @@ stdenv.mkDerivation {
 
   dontConfigure = true;
   dontBuild = true;
+  # stripping invalidates the code signature
+  dontFixup = true;
 
   nativeBuildInputs = [ unzip ];
 

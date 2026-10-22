@@ -10,6 +10,7 @@ stdenv.mkDerivation {
   inherit (mySource) pname version src;
   dontConfigure = true;
   dontBuild = true;
+  dontFixup = true;                # stripping invalidates the code signature
   nativeBuildInputs = [ unzip ];   # or `undmg` for a .dmg source
   sourceRoot = ".";
   installPhase = ''
@@ -28,6 +29,7 @@ stdenv.mkDerivation {
 
 Lessons baked in above:
 - **Prefer the `.zip` asset over the `.dmg`.** Many releases' `.dmg` files use a non-HFS format `undmg` can't read — the build fails at unpack. If the release also ships a `.zip` (it usually does), point `fetch.url` at it and use `unzip`. Only reach for `undmg` when there's no zip (as `awakened-poe-trade` does).
+- **Set `dontFixup = true`.** On darwin the fixup phase runs `strip -S` over `$out/Applications`, which rewrites the binary and replaces the upstream signature with a linker one, so `codesign --verify` fails with "code has no resources but signature indicates they must be present". Skipping fixup keeps the bundle byte-identical to the release.
 - **GUI apps: omit `meta.mainProgram`** (there's no `$out/bin` entrypoint) and add `sourceProvenance = [ binaryNativeCode ]`.
-- **Verify the bundle, not a binary.** Confirm `result/Applications/<App>.app/Contents/MacOS/<App>` exists; check `Contents/Info.plist` `CFBundleShortVersionString` (via `/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString"`) and `file`/`lipo` the binary to confirm which arches (universal `x86_64 + arm64` justifies both darwin platforms).
+- **Verify the bundle, not a binary.** Confirm `result/Applications/<App>.app/Contents/MacOS/<App>` exists; check `Contents/Info.plist` `CFBundleShortVersionString` (via `/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString"`) and `file`/`lipo` the binary to confirm which arches (universal `x86_64 + arm64` justifies both darwin platforms). Run `codesign --verify --deep --strict -v result/Applications/<App>.app`; it should print "valid on disk" whenever the upstream bundle is signed.
 - Tags like `V4.0.0` → `src.prefix = "V"` to clean the version, and re-add the prefix in the asset path: `fetch.url = ".../download/V$ver/<App>_V$ver.zip"`.
