@@ -6,6 +6,14 @@
   dockerTools,
 }:
 {
+  aeronaut = {
+    pname = "aeronaut";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://github.com/torifat/aeronaut/releases/download/v0.1.0/Aeronaut-0.1.0.zip";
+      sha256 = "sha256-hB3qbYwRNMwigmQGHRolZys0/2Sh+WfhgJqLFzJzQ1E=";
+    };
+  };
   awakened-poe-trade = {
     pname = "awakened-poe-trade";
     version = "3.29.108";

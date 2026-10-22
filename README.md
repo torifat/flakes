@@ -49,6 +49,7 @@ home-manager.users.myUser = {
 <!-- pkgs start -->
 | Package | Version |
 |---------|---------|
+| [aeronaut](https://github.com/torifat/aeronaut) | `0.1.0` |
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.29.108` |
 | [browserpass](https://github.com/browserpass/browserpass-native) | `3.1.2` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |

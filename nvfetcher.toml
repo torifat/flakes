@@ -75,3 +75,8 @@ fetch.url = "https://github.com/tw93/MiaoYan/releases/download/V$ver/MiaoYan_V$v
 [open-super-whisper]
 src.github = "Starmel/OpenSuperWhisper"
 fetch.url = "https://github.com/Starmel/OpenSuperWhisper/releases/download/$ver/OpenSuperWhisper.dmg"
+
+[aeronaut]
+src.github = "torifat/aeronaut"
+src.prefix = "v"
+fetch.url = "https://github.com/torifat/aeronaut/releases/download/v$ver/Aeronaut-$ver.zip"

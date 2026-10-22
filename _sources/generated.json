@@ -1,4 +1,19 @@
 {
+    "aeronaut": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "aeronaut",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-hB3qbYwRNMwigmQGHRolZys0/2Sh+WfhgJqLFzJzQ1E=",
+            "type": "url",
+            "url": "https://github.com/torifat/aeronaut/releases/download/v0.1.0/Aeronaut-0.1.0.zip"
+        },
+        "version": "0.1.0"
+    },
     "awakened-poe-trade": {
         "cargoLock": null,
         "date": null,
