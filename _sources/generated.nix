@@ -119,17 +119,6 @@
       sha256 = "sha256-pv9A0PBFjLOk/I3i/OhcrOldFIBtYKrQyKi4vbjjy1c=";
     };
   };
-  sketchybar-helper = {
-    pname = "sketchybar-helper";
-    version = "73ee34d377f62fc12ddbf519a2bcdb4b7946292a";
-    src = fetchFromGitHub {
-      owner = "FelixKratz";
-      repo = "SketchyBarHelper";
-      rev = "73ee34d377f62fc12ddbf519a2bcdb4b7946292a";
-      fetchSubmodules = false;
-      sha256 = "sha256-RqL0QkHV6mvPPt7ibdyhMN6vHZGFIw4VkV+kdE4GI5Y=";
-    };
-  };
   television = {
     pname = "television";
     version = "0.15.9";

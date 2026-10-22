@@ -207,27 +207,6 @@
         },
         "version": "7"
     },
-    "sketchybar-helper": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "sketchybar-helper",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "FelixKratz",
-            "repo": "SketchyBarHelper",
-            "rev": "73ee34d377f62fc12ddbf519a2bcdb4b7946292a",
-            "sha256": "sha256-RqL0QkHV6mvPPt7ibdyhMN6vHZGFIw4VkV+kdE4GI5Y=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "73ee34d377f62fc12ddbf519a2bcdb4b7946292a"
-    },
     "television": {
         "cargoLock": {
             "Cargo.lock": [

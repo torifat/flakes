@@ -14,10 +14,6 @@ fetch.url = "https://github.com/googlefonts/googlesans-code/releases/download/$v
 src.manual = "7"
 fetch.url = "https://developer.apple.com/download/files/SF-Symbols-$ver.dmg"
 
-[sketchybar-helper]
-src.manual = "73ee34d377f62fc12ddbf519a2bcdb4b7946292a"
-fetch.github = "FelixKratz/SketchyBarHelper"
-
 [pvetui]
 src.github = "devnullvoid/pvetui"
 src.prefix = "v"
