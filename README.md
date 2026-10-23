@@ -49,7 +49,7 @@ home-manager.users.myUser = {
 <!-- pkgs start -->
 | Package | Version |
 |---------|---------|
-| [aeronaut](https://github.com/torifat/aeronaut) | `0.1.1` |
+| [aeronaut](https://github.com/torifat/aeronaut) | `0.1.2` |
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.29.108` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | `4.5.0` |
