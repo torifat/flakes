@@ -167,7 +167,7 @@
     "rusty-path-of-building": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-TpZUQlFtImoD_hmwIx1Hwj9j_LHwldIYxK+grE6mWgg=/Cargo.lock",
+                "sha256-hi3hNoD21d60wjY8H_T9bvBLNhpq2+r0q4EzVRhicpA=/Cargo.lock",
                 {
                     "luautf8-rs-0.1.0": "sha256-RCHy/oOUQbeSVnvGDORMVsxmAHRJSxMb3uQFWg5/HoQ="
                 }
@@ -185,12 +185,12 @@
             "name": null,
             "owner": "meehl",
             "repo": "rusty-path-of-building",
-            "rev": "v0.3.2",
-            "sha256": "sha256-TpZUQlFtImoD/hmwIx1Hwj9j/LHwldIYxK+grE6mWgg=",
+            "rev": "v0.3.3",
+            "sha256": "sha256-hi3hNoD21d60wjY8H/T9bvBLNhpq2+r0q4EzVRhicpA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.3.2"
+        "version": "v0.3.3"
     },
     "sf-symbols": {
         "cargoLock": null,
