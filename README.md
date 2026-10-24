@@ -44,6 +44,32 @@ home-manager.users.myUser = {
 };
 ```
 
+### Binary cache
+
+CI builds every package for `aarch64-darwin` and `x86_64-linux` and pushes the results to [rifat.cachix.org](https://rifat.cachix.org). Add it to your NixOS or nix-darwin config:
+
+```nix
+nix.settings = {
+  extra-substituters = [ "https://rifat.cachix.org" ];
+  extra-trusted-public-keys = [
+    "rifat.cachix.org-1:fGsDn1VSmzo+Fgz55h+Glc3zT6GXCdyD3EVbdAOw0co="
+  ];
+};
+```
+
+The overlay builds packages against your nixpkgs, so they only come from the cache when your nixpkgs is the same revision as the one in this flake's `flake.lock`. CI moves that revision to the latest `nixpkgs-unstable` every 6 hours. To stay on it, make your nixpkgs follow this flake's:
+
+```nix
+inputs = {
+  flakes.url = "github:torifat/flakes";
+  nixpkgs.follows = "flakes/nixpkgs";
+};
+```
+
+`nix flake update flakes` then updates both. If you rebuild before CI has finished building a new nixpkgs revision, those packages build locally.
+
+If you keep your own nixpkgs, use `flakes.packages.${system}.<name>` for the packages you want cached instead of taking them from the overlay.
+
 ## Packages
 
 <!-- pkgs start -->
