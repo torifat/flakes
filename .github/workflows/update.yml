@@ -15,13 +15,31 @@ jobs:
   update:
     runs-on: macos-latest
     outputs:
-      changed: ${{ env.COMMIT_MSG != null && 'true' || 'false' }}
+      changed: ${{ (env.COMMIT_MSG != null || env.NIXPKGS_MSG != null) && 'true' || 'false' }}
     steps:
       - uses: actions/checkout@v6
 
       - uses: cachix/install-nix-action@v31
         with:
           nix_path: nixpkgs=channel:nixpkgs-unstable
+
+      # Downstream configs follow this flake's nixpkgs, so keeping it current
+      # (and cached) is what lets them substitute these packages.
+      - name: Update nixpkgs
+        run: |
+          old=$(jq -r '.nodes.nixpkgs.locked.rev' flake.lock)
+          nix flake update nixpkgs
+          new=$(jq -r '.nodes.nixpkgs.locked.rev' flake.lock)
+          if [ "$old" != "$new" ]; then
+            echo "NIXPKGS_MSG=nixpkgs: ${old:0:7} -> ${new:0:7}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Commit nixpkgs update
+        if: ${{ env.NIXPKGS_MSG != null }}
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: ${{ env.NIXPKGS_MSG }}
+          file_pattern: flake.lock
 
       - name: Update sources with nvfetcher
         id: nvfetcher
