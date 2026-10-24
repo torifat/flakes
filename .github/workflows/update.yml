@@ -116,6 +116,6 @@ jobs:
       - name: Build packages
         run: |
           system=$(nix eval --impure --raw --expr builtins.currentSystem)
-          nix build --print-build-logs --no-link \
+          nix build --print-build-logs --keep-going --no-link \
             $(nix eval --json ".#packages.$system" --apply builtins.attrNames \
               | jq -r --arg s "$system" '.[] | ".#packages.\($s).\(.)"')
