@@ -51,7 +51,7 @@ else
     extraInstallCommands = ''
       install -Dm444 ${appimageContents}/${pname}.desktop $out/share/applications/${pname}.desktop
       substituteInPlace $out/share/applications/${pname}.desktop \
-        --replace-fail 'Exec=AppRun --sandbox %U' 'Exec=${pname} %U'
+        --replace-fail 'Exec=AppRun %U' 'Exec=${pname} %U'
 
       install -m 444 -D ${appimageContents}/awakened-poe-trade.png $out/share/icons/hicolor/128x128/apps/${pname}.png
     '';
