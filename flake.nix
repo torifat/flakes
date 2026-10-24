@@ -1,6 +1,11 @@
 {
   description = "Custom Nix packages with auto-updating sources";
 
+  nixConfig = {
+    extra-substituters = [ "https://rifat.cachix.org" ];
+    extra-trusted-public-keys = [ "rifat.cachix.org-1:fGsDn1VSmzo+Fgz55h+Glc3zT6GXCdyD3EVbdAOw0co=" ];
+  };
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
