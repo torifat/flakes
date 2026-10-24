@@ -5,7 +5,7 @@ description: Add a new package to this Nix flakes repo. Use when the user wants 
 
 # Add a Package
 
-Add a new package to this flakes repo end-to-end: source definition, build, verification, and bookkeeping. Read `CLAUDE.md` first — it describes the auto-discovery, multi-arch, and platform-filtering architecture this skill relies on.
+Add a new package to this flakes repo end-to-end: source definition, build, verification, and bookkeeping. Read `AGENTS.md` first — it describes the auto-discovery, multi-arch, and platform-filtering architecture this skill relies on.
 
 ## Golden rules
 
@@ -51,7 +51,7 @@ fetch.url = "https://github.com/<owner>/<repo>/releases/download/v$ver/<asset>"
 - **`fetch.github` + `src.prefix` is broken**: `fetch.github` uses the bare (stripped) version as the git rev, so a `V1.2.3` tag becomes a 404 for rev `1.2.3`. When the tag has a prefix you want stripped, use `fetch.url` with the archive URL and re-add the prefix there:
   `fetch.url = "https://github.com/<owner>/<repo>/archive/refs/tags/V$ver.tar.gz"`.
   (`fetch.github` is only clean when the tag *is* the bare version — see `television`.)
-- Multi-arch: add a second entry `[<name>-<system>]` (e.g. `pvetui-x86_64-linux`) with the arch-specific asset. The overlay auto-swaps `mySource.src` per system; the package needs no changes. See the CLAUDE.md multi-arch convention.
+- Multi-arch: add a second entry `[<name>-<system>]` (e.g. `pvetui-x86_64-linux`) with the arch-specific asset. The overlay auto-swaps `mySource.src` per system; the package needs no changes. See the AGENTS.md multi-arch convention.
 - Rust from source: `fetch.github = "<owner>/<repo>"` + `cargo_lock = ["Cargo.lock"]`.
 
 Regenerate sources:
