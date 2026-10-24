@@ -20,15 +20,20 @@ pkglist=$(nix eval --raw --impure --expr "
     overlayData = import ./overlays/default.nix { lib = pkgs.lib; };
     names = builtins.sort builtins.lessThan overlayData.packageNames;
   in
-  \"| Package | Version |\n|---------|---------|\" + \"\n\" +
+  \"| Package | Description | Version |\n|---------|-------------|---------|\" + \"\n\" +
   builtins.concatStringsSep \"\n\" (
     map (name:
       let
         pkg = pkgs.\${name};
         homepage = pkg.meta.homepage or \"\";
+        # Escape pipes so they don't split the table cell; drop the trailing
+        # period some nixpkgs descriptions carry.
+        description = pkgs.lib.removeSuffix \".\" (
+          builtins.replaceStrings [ \"|\" \"\n\" ] [ \"\\\\|\" \" \" ] (pkg.meta.description or \"\")
+        );
         version = pkg.version or \"unknown\";
       in
-      \"| [\${name}](\${homepage}) | \`\${version}\` |\"
+      \"| [\${name}](\${homepage}) | \${description} | \`\${version}\` |\"
     ) names
   )
 ")

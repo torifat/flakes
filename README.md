@@ -2,6 +2,25 @@
 
 Custom Nix packages with auto-updating sources via [nvfetcher](https://github.com/berberman/nvfetcher).
 
+## Packages
+
+<!-- pkgs start -->
+| Package | Description | Version |
+|---------|-------------|---------|
+| [aeronaut](https://github.com/torifat/aeronaut) | SwiftUI status bar for macOS and AeroSpace, with animated workspace and calendar pills | `0.1.4` |
+| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | Path of Exile trading companion tool | `3.29.108` |
+| [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
+| [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.5.0` |
+| [mole](https://github.com/tw93/mole) | macOS system maintenance utility: clean, uninstall, analyze, optimize, and monitor | `1.62.0` |
+| [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
+| [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.7` |
+| [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.4` |
+| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.3` |
+| [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
+| [television](https://github.com/alexpasmantier/television) | Blazingly fast general purpose fuzzy finder TUI | `0.15.9` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | `v0.81.0` |
+<!-- pkgs end -->
+
 ## Usage
 
 Add the flake input and apply the overlay:
@@ -69,22 +88,3 @@ inputs = {
 `nix flake update flakes` then updates both. If you rebuild before CI has finished building a new nixpkgs revision, those packages build locally.
 
 If you keep your own nixpkgs, use `flakes.packages.${system}.<name>` for the packages you want cached instead of taking them from the overlay.
-
-## Packages
-
-<!-- pkgs start -->
-| Package | Version |
-|---------|---------|
-| [aeronaut](https://github.com/torifat/aeronaut) | `0.1.4` |
-| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | `3.29.108` |
-| [googlesans-code](https://github.com/googlefonts/googlesans-code) | `v7.001` |
-| [miaoyan](https://github.com/tw93/MiaoYan) | `4.5.0` |
-| [mole](https://github.com/tw93/mole) | `1.62.0` |
-| [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | `0.1.0` |
-| [prek](https://github.com/j178/prek) | `v0.5.7` |
-| [pvetui](https://github.com/devnullvoid/pvetui) | `1.4.4` |
-| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | `v0.3.3` |
-| [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | `7` |
-| [television](https://github.com/alexpasmantier/television) | `0.15.9` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | `v0.81.0` |
-<!-- pkgs end -->
