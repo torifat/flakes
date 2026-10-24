@@ -91,6 +91,7 @@ jobs:
     if: ${{ needs.update.outputs.changed == 'true' }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest]
     steps:
