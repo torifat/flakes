@@ -6,7 +6,7 @@
 buildGoModule {
   inherit (mySource) pname version src;
 
-  vendorHash = "sha256-iGwtKV6mJfSgZ5rMB5ASXzdKTPBy9RqoysM4JRh0dts=";
+  vendorHash = "sha256-PBnWwgH9xYgMwcr/MVbH29Sb4ODI0+lgqSvlYC+pj/0=";
 
   # mole is a Bash CLI; the Go sources build the `analyze` and `status` helper
   # binaries that the shell scripts invoke as `analyze-go`/`status-go`.
