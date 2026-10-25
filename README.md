@@ -7,11 +7,11 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 <!-- pkgs start -->
 | Package | Description | Version |
 |---------|-------------|---------|
-| [aeronaut](https://github.com/torifat/aeronaut) | SwiftUI status bar for macOS and AeroSpace, with animated workspace and calendar pills | `0.1.4` |
+| [aeronaut](https://github.com/torifat/aeronaut) | SwiftUI status bar for macOS and AeroSpace, with animated workspace and calendar pills | `0.1.5` |
 | [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | Path of Exile trading companion tool | `3.29.108` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.5.0` |
-| [mole](https://github.com/tw93/mole) | macOS system maintenance utility: clean, uninstall, analyze, optimize, and monitor | `1.63.0` |
+| [mole](https://github.com/tw93/mole) | macOS system maintenance utility: clean, uninstall, analyze, optimize, and monitor | `1.64.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
 | [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.7` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.4` |

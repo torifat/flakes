@@ -8,10 +8,10 @@
 {
   aeronaut = {
     pname = "aeronaut";
-    version = "0.1.4";
+    version = "0.1.5";
     src = fetchurl {
-      url = "https://github.com/torifat/aeronaut/releases/download/v0.1.4/Aeronaut-0.1.4.zip";
-      sha256 = "sha256-bI7eK3rdFWug3vuTqT+AEAKjzWOSSQu5W/FvGnBuIoU=";
+      url = "https://github.com/torifat/aeronaut/releases/download/v0.1.5/Aeronaut-0.1.5.zip";
+      sha256 = "sha256-CFblwFhORpS95br28qKW0GQ7Ek6jd2BCIhikBMVRyS0=";
     };
   };
   awakened-poe-trade = {
@@ -48,10 +48,10 @@
   };
   mole = {
     pname = "mole";
-    version = "1.63.0";
+    version = "1.64.0";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.63.0.tar.gz";
-      sha256 = "sha256-liYo8LYjpk09+9otox7reaxWATtO5aswk1akLV/6MY8=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.64.0.tar.gz";
+      sha256 = "sha256-hW+ZQ/PogoJBH2yuBLNDylWg+x1j6KtoMd17+DagQT4=";
     };
   };
   open-super-whisper = {
