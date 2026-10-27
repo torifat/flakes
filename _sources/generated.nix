@@ -48,10 +48,10 @@
   };
   mole = {
     pname = "mole";
-    version = "1.64.0";
+    version = "1.65.0";
     src = fetchurl {
-      url = "https://github.com/tw93/mole/archive/refs/tags/V1.64.0.tar.gz";
-      sha256 = "sha256-hW+ZQ/PogoJBH2yuBLNDylWg+x1j6KtoMd17+DagQT4=";
+      url = "https://github.com/tw93/mole/archive/refs/tags/V1.65.0.tar.gz";
+      sha256 = "sha256-Syfa5sSrc69lxICZ0kSsf0kiHBUYMfsbsPS2Z2Om4j8=";
     };
   };
   open-super-whisper = {
