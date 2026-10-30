@@ -13,7 +13,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.6.0` |
 | [mole](https://github.com/tw93/mole) | macOS system maintenance utility: clean, uninstall, analyze, optimize, and monitor | `1.66.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
-| [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.7` |
+| [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.9` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.4` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.3` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
