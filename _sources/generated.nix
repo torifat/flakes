@@ -8,10 +8,10 @@
 {
   aeronaut = {
     pname = "aeronaut";
-    version = "0.1.5";
+    version = "0.1.6";
     src = fetchurl {
-      url = "https://github.com/torifat/aeronaut/releases/download/v0.1.5/Aeronaut-0.1.5.zip";
-      sha256 = "sha256-CFblwFhORpS95br28qKW0GQ7Ek6jd2BCIhikBMVRyS0=";
+      url = "https://github.com/torifat/aeronaut/releases/download/v0.1.6/Aeronaut-0.1.6.zip";
+      sha256 = "sha256-SdjYgAzudNwDMD/BsADOb6imLzfJkasTkQej/UZmOPo=";
     };
   };
   awakened-poe-trade = {
