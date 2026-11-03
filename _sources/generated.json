@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-8mOZIYnDPlTboSCB40VbHyUHjk6YBuXWod9n9/pVJkU=",
+            "sha256": "sha256-dQtn90KAdeU21CeIloUC/JThyOQrzH1tqfixaWjr4QY=",
             "type": "url",
-            "url": "https://github.com/tw93/mole/archive/refs/tags/V1.67.0.tar.gz"
+            "url": "https://github.com/tw93/mole/archive/refs/tags/V1.68.0.tar.gz"
         },
-        "version": "1.67.0"
+        "version": "1.68.0"
     },
     "open-super-whisper": {
         "cargoLock": null,
