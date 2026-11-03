@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-baiaVn4MVtg87oBj4WDf+zbFkD0KQPzrm4/5+TAbkuo=",
+            "sha256": "sha256-N6TTe6mAm+qfGCjJAtHYBm2QX5HB7+EXQsS5UvpRFgs=",
             "type": "url",
-            "url": "https://github.com/tw93/MiaoYan/releases/download/V4.6.0/MiaoYan_V4.6.0.zip"
+            "url": "https://github.com/tw93/MiaoYan/releases/download/V4.6.1/MiaoYan_V4.6.1.zip"
         },
-        "version": "4.6.0"
+        "version": "4.6.1"
     },
     "mole": {
         "cargoLock": null,
