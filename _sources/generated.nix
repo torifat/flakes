@@ -40,10 +40,10 @@
   };
   miaoyan = {
     pname = "miaoyan";
-    version = "4.7.0";
+    version = "4.7.1";
     src = fetchurl {
-      url = "https://github.com/tw93/MiaoYan/releases/download/V4.7.0/MiaoYan_V4.7.0.zip";
-      sha256 = "sha256-UX6+s55lSUq87XrNOqw7m4sMjX2YdDsY/Uf5pyoBBhQ=";
+      url = "https://github.com/tw93/MiaoYan/releases/download/V4.7.1/MiaoYan_V4.7.1.zip";
+      sha256 = "sha256-3+Va7AbEMH45uih9C6OtoZhmWehP57n+5B0ZXD5JdHw=";
     };
   };
   mole = {
