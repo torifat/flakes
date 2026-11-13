@@ -14,7 +14,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
 | [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.10` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.5` |
-| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.3` |
+| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.4` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
 | [television](https://github.com/alexpasmantier/television) | Blazingly fast general purpose fuzzy finder TUI | `0.15.9` |
 | [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | `v0.81.0` |
