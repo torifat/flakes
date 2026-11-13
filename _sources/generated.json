@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-SdjYgAzudNwDMD/BsADOb6imLzfJkasTkQej/UZmOPo=",
+            "sha256": "sha256-QAJKxJrJD7yD8WeGrF7Ovud2k50W4JKnjh1uhvFNCCQ=",
             "type": "url",
-            "url": "https://github.com/torifat/aeronaut/releases/download/v0.1.6/Aeronaut-0.1.6.zip"
+            "url": "https://github.com/torifat/aeronaut/releases/download/v0.1.7/Aeronaut-0.1.7.zip"
         },
-        "version": "0.1.6"
+        "version": "0.1.7"
     },
     "awakened-poe-trade": {
         "cargoLock": null,
