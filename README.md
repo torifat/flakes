@@ -12,7 +12,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
 | [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.10.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
-| [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.10` |
+| [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.11` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.5` |
 | [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.4` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
