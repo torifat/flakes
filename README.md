@@ -8,7 +8,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | Package | Description | Version |
 |---------|-------------|---------|
 | [aeronaut](https://github.com/torifat/aeronaut) | SwiftUI status bar for macOS and AeroSpace, with animated workspace and calendar pills | `0.1.8` |
-| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | Path of Exile trading companion tool | `3.29.108` |
+| [awakened-poe-trade](https://github.com/SnosMe/awakened-poe-trade) | Path of Exile trading companion tool | `3.30.101` |
 | [exiled-exchange-2](https://kvan7.github.io/Exiled-Exchange-2) | Price checker overlay for Path of Exile 2 | `0.16.3` |
 | [gitstatusd-lite]() | Lightweight gitstatusd replacement for powerlevel10k | `0.1.0` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
