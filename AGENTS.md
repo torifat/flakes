@@ -34,7 +34,7 @@ Nix flake repo for custom packages with auto-updating sources via nvfetcher.
 ## Gotchas
 
 - nvfetcher bumps versions but not Go `vendorHash` (e.g. `mole`). After a bump, CI fails with a fixed-output hash mismatch; copy the `got:` hash into the package. Rust packages use nvfetcher's `cargo_lock`, so their hashes update automatically
-- `basePackage.overrideAttrs` packages (e.g. `rusty-path-of-building`) inherit the nixpkgs recipe, which can lag upstream. When upstream restructures, override the affected attrs (`buildInputs`, phases) rather than waiting for nixpkgs
+- `basePackage.overrideAttrs` packages (e.g. `rusty-path-of-building`) inherit the nixpkgs recipe, which can lag upstream. When upstream restructures, override the affected attrs (`buildInputs`, phases) rather than waiting for nixpkgs. Add to an inherited list (`oldAttrs.buildInputs ++ [ ... ]`) instead of replacing it, and drop the override once nixpkgs catches up: a replaced `buildInputs` on `rusty-path-of-building` lost the `aws-lc` nixpkgs added later, and 0.3.4 failed to build with `AWS_LC_SYS_USE_SYSTEM=1 requires a system-installed AWS-LC`
 - Linux-only packages can't be built on macOS; push and let CI's ubuntu job build them
 - `steam` and `steamcmd` fetch rolling URLs with a manual version, so nvfetcher never refreshes their hash. When Valve replaces the file the build fails with a hash mismatch; change `src.manual` for that package in `nvfetcher.toml` so nvfetcher fetches it again and records the new hash
 - `steam`, `tdarr-node` and `sf-mono-liga-bin` are unfree binaries that CI builds and pushes to the public cache. Rifat chose that on 2026-11-17; if a takedown comes, move them to `broken.nix`

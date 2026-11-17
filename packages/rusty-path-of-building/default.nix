@@ -1,24 +1,18 @@
 {
   lib,
   rustPlatform,
-  luajit,
-  openssl,
-  wayland,
   mySource,
   basePackage,
   ...
 }:
+# buildInputs come from the nixpkgs recipe. An earlier override here replaced
+# the list and so dropped `aws-lc`, which nixpkgs added later. The cargo setup
+# hook sets AWS_LC_SYS_USE_SYSTEM=1, so aws-lc-sys (pulled in by 0.3.4) then
+# failed to find a system AWS-LC.
 basePackage.overrideAttrs (oldAttrs: {
   cargoDeps = rustPlatform.importCargoLock mySource.cargoLock."Cargo.lock";
   src = mySource.src;
   version = mySource.version;
-  # 0.3.0+ bundles the Lua C modules (default `bundled-lua-modules` feature) and
-  # dropped `lua/libs/lzip`, which older nixpkgs recipes still try to build.
-  buildInputs = [
-    luajit
-    openssl
-    wayland
-  ];
   meta = oldAttrs.meta // {
     platforms = lib.platforms.linux;
   };
