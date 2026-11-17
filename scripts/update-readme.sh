@@ -24,7 +24,7 @@ pkglist=$(nix eval --raw --impure --expr "
   builtins.concatStringsSep \"\n\" (
     map (name:
       let
-        pkg = pkgs.\${name};
+        pkg = pkgs.flakesPackages.\${name};
         homepage = pkg.meta.homepage or \"\";
         # Escape pipes so they don't split the table cell; drop the trailing
         # period some nixpkgs descriptions carry.

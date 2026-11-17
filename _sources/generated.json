@@ -44,6 +44,21 @@
         },
         "version": "3.29.108"
     },
+    "exiled-exchange-2": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "exiled-exchange-2",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-aAHFELdlL7cccpzAW9ROHF1hZDAnQGTLLtDonS0CT2Q=",
+            "type": "url",
+            "url": "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.16.3/Exiled-Exchange-2-0.16.3.AppImage"
+        },
+        "version": "0.16.3"
+    },
     "googlesans-code": {
         "cargoLock": null,
         "date": null,
@@ -149,6 +164,26 @@
         },
         "version": "1.4.5"
     },
+    "qylock": {
+        "cargoLock": null,
+        "date": "2026-11-04",
+        "extract": null,
+        "name": "qylock",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "c2933f27b655a999911e6699e1b2c67e59cbd428",
+            "sha256": "sha256-uTPmmZ/khZVpImOGqgFKPqMtJ1M/GGvQxLsQ7Dk60JQ=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/Darkkal44/qylock.git"
+        },
+        "version": "c2933f27b655a999911e6699e1b2c67e59cbd428"
+    },
     "rusty-path-of-building": {
         "cargoLock": {
             "Cargo.lock": [
@@ -177,6 +212,26 @@
         },
         "version": "v0.3.4"
     },
+    "sf-mono-liga-bin": {
+        "cargoLock": null,
+        "date": "2023-07-01",
+        "extract": null,
+        "name": "sf-mono-liga-bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea",
+            "sha256": "sha256-AYjKrVLISsJWXN6Cj74wXmbJtREkFDYOCRw1t2nVH2w=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized.git"
+        },
+        "version": "dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea"
+    },
     "sf-symbols": {
         "cargoLock": null,
         "date": null,
@@ -191,6 +246,51 @@
             "url": "https://developer.apple.com/download/files/SF-Symbols-7.dmg"
         },
         "version": "7"
+    },
+    "steam": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "steam",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-4av7qqe+Pg9IoODUwxMjPgWGGx0mrzKDDdyDi+iPJpE=",
+            "type": "url",
+            "url": "https://media.steampowered.com/client/installer/steam.dmg"
+        },
+        "version": "1.0"
+    },
+    "steamcmd": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "steamcmd",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-jswXyJiOWsrcx45jHEhJD3YVDy36ps+Ne0tnsJe9dTs=",
+            "type": "url",
+            "url": "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_osx.tar.gz"
+        },
+        "version": "1.0"
+    },
+    "tdarr-node": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "tdarr-node",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-xGWmPFIW7z8e83EwE4Uk16NxLZOHlWk4hFce7fDdB0w=",
+            "type": "url",
+            "url": "https://storage.tdarr.io/versions/3.08.00/linux_x64/Tdarr_Node.zip"
+        },
+        "version": "3.08.00"
     },
     "television": {
         "cargoLock": {

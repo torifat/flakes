@@ -66,3 +66,34 @@ fetch.url = "https://github.com/Starmel/OpenSuperWhisper/releases/download/$ver/
 src.github = "torifat/aeronaut"
 src.prefix = "v"
 fetch.url = "https://github.com/torifat/aeronaut/releases/download/v$ver/Aeronaut-$ver.zip"
+
+[exiled-exchange-2]
+src.github_tag = "Kvan7/Exiled-Exchange-2"
+src.prefix = "v"
+fetch.url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v$ver/Exiled-Exchange-2-$ver.AppImage"
+
+[qylock]
+src.git = "https://github.com/Darkkal44/qylock.git"
+src.use_commit = true
+src.branch = "main"
+fetch.git = "https://github.com/Darkkal44/qylock.git"
+
+[tdarr-node]
+src.cmd = "curl -fsS https://storage.tdarr.io/versions.json | jq -r 'to_entries[0].key'"
+fetch.url = "https://storage.tdarr.io/versions/$ver/linux_x64/Tdarr_Node.zip"
+
+[sf-mono-liga-bin]
+src.git = "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized.git"
+src.use_commit = true
+src.branch = "main"
+fetch.git = "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized.git"
+
+# Steam client (rolling macOS bootstrapper DMG; self-updates on launch)
+[steam]
+src.manual = "1.0"
+fetch.url = "https://media.steampowered.com/client/installer/steam.dmg"
+
+# SteamCMD (rolling macOS bootstrapper tarball; x86_64-only, self-updates on launch)
+[steamcmd]
+src.manual = "1.0"
+fetch.url = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_osx.tar.gz"

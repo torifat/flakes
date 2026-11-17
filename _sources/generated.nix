@@ -30,6 +30,14 @@
       sha256 = "sha256-DIksV61mC0E2ZPztWK+WnMqR9KXwLMWQpc7hajaymyE=";
     };
   };
+  exiled-exchange-2 = {
+    pname = "exiled-exchange-2";
+    version = "0.16.3";
+    src = fetchurl {
+      url = "https://github.com/Kvan7/Exiled-Exchange-2/releases/download/v0.16.3/Exiled-Exchange-2-0.16.3.AppImage";
+      sha256 = "sha256-aAHFELdlL7cccpzAW9ROHF1hZDAnQGTLLtDonS0CT2Q=";
+    };
+  };
   googlesans-code = {
     pname = "googlesans-code";
     version = "v7.001";
@@ -86,6 +94,20 @@
       sha256 = "sha256-DoFCxMBr7c9pnNdYMtbl071Ul8RzgSNcKkoFnUPS8fc=";
     };
   };
+  qylock = {
+    pname = "qylock";
+    version = "c2933f27b655a999911e6699e1b2c67e59cbd428";
+    src = fetchgit {
+      url = "https://github.com/Darkkal44/qylock.git";
+      rev = "c2933f27b655a999911e6699e1b2c67e59cbd428";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-uTPmmZ/khZVpImOGqgFKPqMtJ1M/GGvQxLsQ7Dk60JQ=";
+    };
+    date = "2026-11-04";
+  };
   rusty-path-of-building = {
     pname = "rusty-path-of-building";
     version = "v0.3.4";
@@ -103,12 +125,50 @@
       };
     };
   };
+  sf-mono-liga-bin = {
+    pname = "sf-mono-liga-bin";
+    version = "dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea";
+    src = fetchgit {
+      url = "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized.git";
+      rev = "dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-AYjKrVLISsJWXN6Cj74wXmbJtREkFDYOCRw1t2nVH2w=";
+    };
+    date = "2023-07-01";
+  };
   sf-symbols = {
     pname = "sf-symbols";
     version = "7";
     src = fetchurl {
       url = "https://developer.apple.com/download/files/SF-Symbols-7.dmg";
       sha256 = "sha256-pv9A0PBFjLOk/I3i/OhcrOldFIBtYKrQyKi4vbjjy1c=";
+    };
+  };
+  steam = {
+    pname = "steam";
+    version = "1.0";
+    src = fetchurl {
+      url = "https://media.steampowered.com/client/installer/steam.dmg";
+      sha256 = "sha256-4av7qqe+Pg9IoODUwxMjPgWGGx0mrzKDDdyDi+iPJpE=";
+    };
+  };
+  steamcmd = {
+    pname = "steamcmd";
+    version = "1.0";
+    src = fetchurl {
+      url = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_osx.tar.gz";
+      sha256 = "sha256-jswXyJiOWsrcx45jHEhJD3YVDy36ps+Ne0tnsJe9dTs=";
+    };
+  };
+  tdarr-node = {
+    pname = "tdarr-node";
+    version = "3.08.00";
+    src = fetchurl {
+      url = "https://storage.tdarr.io/versions/3.08.00/linux_x64/Tdarr_Node.zip";
+      sha256 = "sha256-xGWmPFIW7z8e83EwE4Uk16NxLZOHlWk4hFce7fDdB0w=";
     };
   };
   television = {

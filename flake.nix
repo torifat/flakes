@@ -63,12 +63,12 @@
           packageAvailableOn =
             name:
             let
-              pkg = builtins.tryEval pkgs.${name};
+              pkg = builtins.tryEval pkgs.flakesPackages.${name};
             in
             pkg.success && builtins.elem system ((pkg.value.meta.platforms or supportedSystems));
           packageNamesForSystem = builtins.filter packageAvailableOn overlayData.packageNames;
         in
-        lib.genAttrs packageNamesForSystem (name: pkgs.${name})
+        lib.genAttrs packageNamesForSystem (name: pkgs.flakesPackages.${name})
       );
 
       devShells = forAllSystems (
@@ -84,6 +84,9 @@
           default = pkgs.mkShell {
             packages = with pkgs; [
               nvfetcher
+              # used by the src.cmd entries in nvfetcher.toml
+              curl
+              jq
               nixfmt
               nil
               deadnix
