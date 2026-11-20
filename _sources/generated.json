@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-2s20pUUo6c8Zhj0pYG0yaC/YqYlapTfGOpvQsVZMXrQ=",
+            "sha256": "sha256-sljn/xSa7qvGgJctwacaDTlWrdmd78QzErdC/QUgsbY=",
             "type": "url",
-            "url": "https://github.com/tw93/MiaoYan/releases/download/V4.10.0/MiaoYan_V4.10.0.zip"
+            "url": "https://github.com/tw93/MiaoYan/releases/download/V4.11.0/MiaoYan_V4.11.0.zip"
         },
-        "version": "4.10.0"
+        "version": "4.11.0"
     },
     "open-super-whisper": {
         "cargoLock": null,
@@ -187,7 +187,7 @@
     "rusty-path-of-building": {
         "cargoLock": {
             "Cargo.lock": [
-                "sha256-2FpiOX7JROAWbdPFwa1HaZxW+yMU8wM_Qu6ld3CDwHM=/Cargo.lock",
+                "sha256-w+mbPFus+a91wZsCxK_vlQjnwHEjTeRKJK7MRUbelTw=/Cargo.lock",
                 {
                     "luautf8-rs-0.1.0": "sha256-RCHy/oOUQbeSVnvGDORMVsxmAHRJSxMb3uQFWg5/HoQ="
                 }
@@ -205,12 +205,12 @@
             "name": null,
             "owner": "meehl",
             "repo": "rusty-path-of-building",
-            "rev": "v0.3.4",
-            "sha256": "sha256-2FpiOX7JROAWbdPFwa1HaZxW+yMU8wM/Qu6ld3CDwHM=",
+            "rev": "v0.3.5",
+            "sha256": "sha256-w+mbPFus+a91wZsCxK/vlQjnwHEjTeRKJK7MRUbelTw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.3.4"
+        "version": "v0.3.5"
     },
     "sf-mono-liga-bin": {
         "cargoLock": null,

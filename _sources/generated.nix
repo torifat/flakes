@@ -48,10 +48,10 @@
   };
   miaoyan = {
     pname = "miaoyan";
-    version = "4.10.0";
+    version = "4.11.0";
     src = fetchurl {
-      url = "https://github.com/tw93/MiaoYan/releases/download/V4.10.0/MiaoYan_V4.10.0.zip";
-      sha256 = "sha256-2s20pUUo6c8Zhj0pYG0yaC/YqYlapTfGOpvQsVZMXrQ=";
+      url = "https://github.com/tw93/MiaoYan/releases/download/V4.11.0/MiaoYan_V4.11.0.zip";
+      sha256 = "sha256-sljn/xSa7qvGgJctwacaDTlWrdmd78QzErdC/QUgsbY=";
     };
   };
   open-super-whisper = {
@@ -110,16 +110,16 @@
   };
   rusty-path-of-building = {
     pname = "rusty-path-of-building";
-    version = "v0.3.4";
+    version = "v0.3.5";
     src = fetchFromGitHub {
       owner = "meehl";
       repo = "rusty-path-of-building";
-      rev = "v0.3.4";
+      rev = "v0.3.5";
       fetchSubmodules = false;
-      sha256 = "sha256-2FpiOX7JROAWbdPFwa1HaZxW+yMU8wM/Qu6ld3CDwHM=";
+      sha256 = "sha256-w+mbPFus+a91wZsCxK/vlQjnwHEjTeRKJK7MRUbelTw=";
     };
     cargoLock."Cargo.lock" = {
-      lockFile = ./. + "/sha256-2FpiOX7JROAWbdPFwa1HaZxW+yMU8wM_Qu6ld3CDwHM=/Cargo.lock";
+      lockFile = ./. + "/sha256-w+mbPFus+a91wZsCxK_vlQjnwHEjTeRKJK7MRUbelTw=/Cargo.lock";
       outputHashes = {
         "luautf8-rs-0.1.0" = "sha256-RCHy/oOUQbeSVnvGDORMVsxmAHRJSxMb3uQFWg5/HoQ=";
       };

@@ -12,12 +12,12 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [exiled-exchange-2](https://kvan7.github.io/Exiled-Exchange-2) | Price checker overlay for Path of Exile 2 | `0.16.3` |
 | [gitstatusd-lite]() | Lightweight gitstatusd replacement for powerlevel10k | `0.1.0` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
-| [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.10.0` |
+| [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.11.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
 | [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.11` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.5` |
 | [qylock](https://github.com/Darkkal44/qylock) | Qylock SDDM themes | `c2933f27b655a999911e6699e1b2c67e59cbd428` |
-| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.4` |
+| [rusty-path-of-building](https://github.com/meehl/rusty-path-of-building) | A cross-platform runtime for Path of Building and Path of Building 2 | `v0.3.5` |
 | [sf-mono-liga-bin](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized) | SFMono Nerd Font Ligaturized | `dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea` |
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
 | [steam](https://store.steampowered.com/) | Steam client for macOS (self-updating bootstrapper) | `1.0` |
