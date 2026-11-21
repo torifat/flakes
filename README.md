@@ -24,7 +24,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) | Steam command-line tools for macOS (self-updating bootstrapper; x86_64 via Rosetta) | `1.0` |
 | [tdarr-node](https://tdarr.io) | Distributed transcode automation | `3.08.00` |
 | [television](https://github.com/alexpasmantier/television) | Blazingly fast general purpose fuzzy finder TUI | `0.15.9` |
-| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | `v0.82.0` |
+| [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | `v0.83.0` |
 <!-- pkgs end -->
 
 ## Usage
