@@ -165,10 +165,10 @@
   };
   tdarr-node = {
     pname = "tdarr-node";
-    version = "3.08.00";
+    version = "3.09.00";
     src = fetchurl {
-      url = "https://storage.tdarr.io/versions/3.08.00/linux_x64/Tdarr_Node.zip";
-      sha256 = "sha256-xGWmPFIW7z8e83EwE4Uk16NxLZOHlWk4hFce7fDdB0w=";
+      url = "https://storage.tdarr.io/versions/3.09.00/linux_x64/Tdarr_Node.zip";
+      sha256 = "sha256-5EZAGj7mfxjO0OotFXYJeSlR4u1jWXu3gubZ6RPcfLM=";
     };
   };
   television = {
