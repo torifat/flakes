@@ -12,7 +12,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [exiled-exchange-2](https://kvan7.github.io/Exiled-Exchange-2) | Price checker overlay for Path of Exile 2 | `0.16.3` |
 | [gitstatusd-lite]() | Lightweight gitstatusd replacement for powerlevel10k | `0.1.0` |
 | [googlesans-code](https://github.com/googlefonts/googlesans-code) | Google Sans Code variable fonts (Roman + Italic) | `v7.001` |
-| [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.11.0` |
+| [miaoyan](https://github.com/tw93/MiaoYan) | Lightweight Markdown app to help you write great sentences | `4.12.0` |
 | [open-super-whisper](https://github.com/Starmel/OpenSuperWhisper) | macOS dictation app | `0.1.0` |
 | [prek](https://github.com/j178/prek) | Better pre-commit, re-engineered in Rust | `v0.5.11` |
 | [pvetui](https://github.com/devnullvoid/pvetui) | Terminal UI for Proxmox VE | `1.4.5` |

@@ -48,10 +48,10 @@
   };
   miaoyan = {
     pname = "miaoyan";
-    version = "4.11.0";
+    version = "4.12.0";
     src = fetchurl {
-      url = "https://github.com/tw93/MiaoYan/releases/download/V4.11.0/MiaoYan_V4.11.0.zip";
-      sha256 = "sha256-sljn/xSa7qvGgJctwacaDTlWrdmd78QzErdC/QUgsbY=";
+      url = "https://github.com/tw93/MiaoYan/releases/download/V4.12.0/MiaoYan_V4.12.0.zip";
+      sha256 = "sha256-a9W+qWLfVGZofxL/zLLsKLDu8jZ5H5ljXeY76tuewF8=";
     };
   };
   open-super-whisper = {
