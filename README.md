@@ -22,7 +22,7 @@ Custom Nix packages with auto-updating sources via [nvfetcher](https://github.co
 | [sf-symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) | Tool that provides consistent, highly configurable symbols for apps | `7` |
 | [steam](https://store.steampowered.com/) | Steam client for macOS (self-updating bootstrapper) | `1.0` |
 | [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD) | Steam command-line tools for macOS (self-updating bootstrapper; x86_64 via Rosetta) | `1.0` |
-| [tdarr-node](https://tdarr.io) | Distributed transcode automation | `3.09.00` |
+| [tdarr-node](https://tdarr.io) | Distributed transcode automation | `3.10.00` |
 | [television](https://github.com/alexpasmantier/television) | Blazingly fast general purpose fuzzy finder TUI | `0.15.9` |
 | [worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows | `v0.83.0` |
 <!-- pkgs end -->
